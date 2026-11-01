@@ -2,7 +2,7 @@ import AuthenticationServices
 import Foundation
 import SwiftData
 import Testing
-@testable import RentroAdmin
+@testable import Rentro
 
 @MainActor
 struct DomainTests {
@@ -16,7 +16,7 @@ struct DomainTests {
         var ctx: ModelContext { container.mainContext }
         init() throws {
             container = try ModelContainer(for: Schema(versionedSchema: RentroSchemaV1.self), migrationPlan: RentroMigrationPlan.self,
-                                           configurations: ModelConfiguration(isStoredInMemoryOnly: true))
+                                           configurations: ModelConfiguration(isStoredInMemoryOnly: true, cloudKitDatabase: .none))
         }
     }
 

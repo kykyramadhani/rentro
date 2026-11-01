@@ -1,7 +1,7 @@
 import CloudKit
 import Foundation
 import Testing
-@testable import RentroTracker
+@testable import Rentro
 
 final class Clock: @unchecked Sendable {
     private let lock = NSLock()

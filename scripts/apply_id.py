@@ -5,8 +5,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from id_strings import ID, SAME
 spec = lambda s: sorted(re.sub(r"%\d+\$", "%", m) for m in re.findall(r"%(?:\d+\$)?(?:lld|@|d)", s))
 bad = []
-for app in ("RentroAdmin", "RentroTracker"):
-    p = f"Apps/{app}/Resources/Localizable.xcstrings"
+for app in ("Rentro",):
+    p = f"Apps/Rentro/Resources/Localizable.xcstrings"
     cat = json.load(open(p))
     for k, v in cat["strings"].items():
         t = k if k in SAME else ID.get(k)

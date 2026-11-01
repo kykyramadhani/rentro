@@ -7,226 +7,191 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E0013E930F18F2CCA8D3402 /* DeviceForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D371461C5B3DFC9F4D650C4 /* DeviceForm.swift */; };
 		14B5EB3457C61E5603CBC60C /* DomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26010419FC6F67B3E67BB9 /* DomainTests.swift */; };
-		18B27E25770CB8B7554227C5 /* FleetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFF1DBC5DC019B312E396D2 /* FleetMapView.swift */; };
-		19745455F8CDE111E7DD830E /* CloudKitSelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103B2A0506E3A7F20EE28C57 /* CloudKitSelfTest.swift */; };
+		17B0773F0737884B785B7896 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ABBE68217779B1B3F3F22 /* AuthStore.swift */; };
+		1C476EFCD9721E01E95362F2 /* RentalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE3DD2B637F3342D8F9AA3 /* RentalsView.swift */; };
 		1E693365019EF751C8A13F26 /* AccessibilityAuditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C6CC0DE6635ED53A43F45 /* AccessibilityAuditTests.swift */; };
-		1FDC747D467AAEC19B567367 /* Pairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BBFCA06847368B4EF366A8 /* Pairing.swift */; };
-		21346799D509275B8382F0B4 /* KeychainSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B2827DD526F24D42FDD45 /* KeychainSlot.swift */; };
-		2198C5986072097228E89AE9 /* SettingsScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B3A1CD7BFFD359C0A2A78 /* SettingsScreens.swift */; };
-		23BA200E9DF5DBAE262C52B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E182FFB1DA9E312B08EB66EF /* Assets.xcassets */; };
-		24F29CE84C20E4C7CC0FE45B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9839539F8A7B91D0FBD1064D /* Models.swift */; };
-		257B29E5B887EEBDEE3C210F /* Freshness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20743A315A65992F7780BA17 /* Freshness.swift */; };
-		26FC636A2A0BAD8816681305 /* TrackerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B9C9DFC5FF6F310872B4D /* TrackerDomain.swift */; };
-		2AE37AE3D8802B4A2DE81EDB /* TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72267C57169845896CF6551 /* TrackerUITests.swift */; };
-		2AF8F6ACC6AB50E7D3D203B8 /* KeychainSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B2827DD526F24D42FDD45 /* KeychainSlot.swift */; };
-		2E486B07494189207357D904 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481701588A2249C0E93022F /* Booking.swift */; };
-		2EF35DD60E691ED14251C146 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B65C9DDFAAC8F7E3BBD2B44 /* HomeView.swift */; };
-		362B2A167A18E46B289E61FC /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998C6FD57B2107B06533AB8 /* Core.swift */; };
-		366CCC77D397480EBF3E6FD9 /* FleetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A5CEC25F3D99A9245A5E60 /* FleetLink.swift */; };
-		3B667C6B461C9660B1F2089E /* SecondaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B4B740B810D98D10DCE7F7 /* SecondaryViews.swift */; };
-		3C2EACC1AF3399A15EDA9851 /* NewRentalFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C259C9164AAF156B415217 /* NewRentalFlow.swift */; };
-		3F514F3FD8A9CC56BE26CFA1 /* OwnerGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ED0DCC84CA628B11B20D2 /* OwnerGateway.swift */; };
-		4252A7D82ABCB917D48179F0 /* FleetSharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153E0329B7726E55F70BF31 /* FleetSharingView.swift */; };
-		48456B74473D57D62F65D70B /* Freshness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20743A315A65992F7780BA17 /* Freshness.swift */; };
-		4A691E7C4E1C3A9520039169 /* TrackerTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5A067025D73DFE73D1C28 /* TrackerTransport.swift */; };
-		4D66A05DAFE72EA5ACF89871 /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B847A7D38DB18138424799F4 /* Fixtures.swift */; };
-		4ECD2AF77352B9400029CF1D /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D4311BC70F8B1E4FCDA81 /* AppStore.swift */; };
-		5041D5F172C9C48B70AB3192 /* Pairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BBFCA06847368B4EF366A8 /* Pairing.swift */; };
-		527010D5F46B9DE91AA33555 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3B1952572ECC6D4E2731A /* Alerts.swift */; };
-		54F2AF443EF07D2D3D8C150B /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C284DD2C6D8A064F2C3A8E /* Services.swift */; };
-		5A262F68E2AAD9BC7C44DF66 /* LoopbackServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E25C2DA20CD6582410855 /* LoopbackServer.swift */; };
-		5CC88244FC5EEEE81008FA4E /* RentalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB84E73596F36B0D8E1B911 /* RentalsView.swift */; };
-		5D244B7408D0E10DEA9FDF86 /* TrackerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B9C9DFC5FF6F310872B4D /* TrackerDomain.swift */; };
-		6304607C1CC9BC262D868939 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998C6FD57B2107B06533AB8 /* Core.swift */; };
+		2095C65ABC9EC61C360D6848 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABABD9547DAC63CFB0B481 /* AppStore.swift */; };
+		2589BFFA13DD7B5C175117C0 /* TrackerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82321DD416D68C27D5F2C202 /* TrackerViews.swift */; };
+		2A95030D0016280BBFF2A5B5 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7933BB2663CD5FDCCD651 /* DevicesView.swift */; };
+		3B066A3FE5A1AFECA5206ABF /* FleetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B52EBD427B411636717CF5 /* FleetLink.swift */; };
+		3C4A3589BBF3348AA938538F /* KeychainSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B2827DD526F24D42FDD45 /* KeychainSlot.swift */; };
+		4823F72D2928148BA1E99D64 /* RentroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A1329783A05168F99D39C /* RentroApp.swift */; };
+		4E14F5B0CEBBE2A151EEC078 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28C9AAF7A137D8AAD76920 /* Tokens.swift */; };
+		4FCF0156E4E2BDC73C134EB5 /* TrackerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53B9C9DFC5FF6F310872B4D /* TrackerDomain.swift */; };
+		5B13CE5B705AF40A05F090A7 /* AuthViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727D210849FBA66FFC099B2 /* AuthViews.swift */; };
+		5C5E35D73305DE98FFF90A08 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BC1EDC40BC30592A050BF9F1 /* InfoPlist.xcstrings */; };
+		5EFD957304F48EEA6A72BA10 /* TrackerAdminViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DC55DAD47B5D1A1E2C0573 /* TrackerAdminViews.swift */; };
+		5FDFB42AEC27F1CC1EEF9DA4 /* TrackerWiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6424D47F1BC58143CF52F25 /* TrackerWiring.swift */; };
+		613BD927279BD0352AEC3AEB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006CFC3A9DF97719E93B8615 /* SettingsView.swift */; };
+		61AE6A2A639DD62C1BD84896 /* CloudKitSelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103B2A0506E3A7F20EE28C57 /* CloudKitSelfTest.swift */; };
+		6547DBD7ACBFE64A8E4E3252 /* Freshness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20743A315A65992F7780BA17 /* Freshness.swift */; };
 		66057D9FF68F94B3BEF72A2E /* BookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AD49A93C15A7C6EF5B3D5 /* BookingTests.swift */; };
 		668D9CE1C588133920921AA6 /* TrackerCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2E4741E2AA004002735DA /* TrackerCoreTests.swift */; };
-		6D960C1DF5C6FB53D73D89B4 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F059CFE5EDD86735423C5BC6 /* LocationProvider.swift */; };
-		70518ED9C1EE9639F1FB01D3 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C1753DCF7BB98D477A99A1 /* DevicesView.swift */; };
-		7160D86F3CEABADA4FC21810 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3042D23C0EED2D45E16274C /* Money.swift */; };
-		74FC3C9D09224D63F9EFB37F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = FD0E0B5C6CECB94841D99CA7 /* Localizable.xcstrings */; };
-		758F061DC1E8BDBD406CC46C /* LoopbackServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E25C2DA20CD6582410855 /* LoopbackServer.swift */; };
-		7BCA635524BABC6AA2879FD6 /* BrandIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB1FA3B65C87829F11848E /* BrandIntro.swift */; };
-		8AE60BAB2CF0C10D7B0DC0E2 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CDF51E278764B9A4AD074E /* Locations.swift */; };
-		8E19F644261BFD4FC1ACBC7E /* OwnerGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ED0DCC84CA628B11B20D2 /* OwnerGateway.swift */; };
-		908237DCD43119F42DB132F9 /* LocationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13DFD0A4171226FD5B858E /* LocationSample.swift */; };
-		955D2B36EC66BBECEF33AF08 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B7E54BE49C4B24A2F2047620 /* Localizable.xcstrings */; };
-		95B3D6E1194B9FB4EE1C26EE /* CloudKitGateways.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9F8848188D87349A6DDDC /* CloudKitGateways.swift */; };
-		9E1FD10BE215E893109B9E4E /* TrackerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE04303A76B2C25F352819 /* TrackerViews.swift */; };
-		9E5139DF2E76483EFA442962 /* CloudKitGateways.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9F8848188D87349A6DDDC /* CloudKitGateways.swift */; };
+		6B87370EF1ACE512BE65AF00 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C206BDF6CBBE8A433C0D4B /* Alerts.swift */; };
+		6BED390D520AF06796D03152 /* CustomerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DDA1EAA06CC84C7C93A20 /* CustomerForm.swift */; };
+		6C0A209D47558C35BD232E85 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3042D23C0EED2D45E16274C /* Money.swift */; };
+		6C117BB2E871E0D98FF13E21 /* LocationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13DFD0A4171226FD5B858E /* LocationSample.swift */; };
+		6CDA2C4CFD9C1F77867D3178 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673BC766CA59E02341BCB60 /* Services.swift */; };
+		716841118C4C24B1708CDBF4 /* LoopbackServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E25C2DA20CD6582410855 /* LoopbackServer.swift */; };
+		7395D88F92C8F90F02E9EA99 /* BrandIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3463CA4B3E98E873C8995222 /* BrandIntro.swift */; };
+		7574772CC0F8AECE54BBD461 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070514815524BEFF7A11FE2 /* LocationProvider.swift */; };
+		75AD5853286A0B4AE32A0F56 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09BD3460FFBC8461B2E3769 /* Models.swift */; };
+		78C8A0B427BC3E0B20182937 /* TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72267C57169845896CF6551 /* TrackerUITests.swift */; };
+		8171926A6F35A1FDF9A64653 /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC31D43F583A25506B7340 /* Fixtures.swift */; };
+		879319895A1E81228C2D4655 /* CloudKitSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5353AD3A388F70AC9DC3D /* CloudKitSchema.swift */; };
+		8810C7207C04AD772CEEB049 /* TrackerTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5A067025D73DFE73D1C28 /* TrackerTransport.swift */; };
+		8E41D705F1AB7B2FD51E78BE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 70E4927796BA2243A7C49120 /* Localizable.xcstrings */; };
+		96F5754992339A21B2C508A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E473C284488ABB3A6C8F2EAD /* HomeView.swift */; };
+		98D944F1C5958956C2A87104 /* NewRentalFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134154572D3A1BCA52F8F8DE /* NewRentalFlow.swift */; };
 		9ECE8F2B87D8B4A134370B77 /* AlertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A619F025B5095446F1D5D116 /* AlertsTests.swift */; };
-		9F678447C94D7A265C4027DA /* CloudKitSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5353AD3A388F70AC9DC3D /* CloudKitSchema.swift */; };
-		A0112ADCFC010C6AA6D1F29F /* CloudKitSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5353AD3A388F70AC9DC3D /* CloudKitSchema.swift */; };
-		A37ADE5D7B273C09D835F1F1 /* TrackerTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5A067025D73DFE73D1C28 /* TrackerTransport.swift */; };
-		B23DBC52B51EEF1E3738DAD8 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518661E039E7EFE00330BFC /* AuthStore.swift */; };
-		BAAA6324C0C40A8479560B8E /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B649239DB22FFFEC8F18257E /* Components.swift */; };
+		A3602A2DE26AEBB66C28A1D3 /* FleetSharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745EB4F0ECD10437E12CDD4 /* FleetSharingView.swift */; };
+		AE2EF919E8D6C1A3364690C9 /* TrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB31F0221E5BED8DF95449 /* TrackerModel.swift */; };
+		AF4C2DF5F94FE27F6AD5721F /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B1A967CA9A77592E2B3C2 /* Components.swift */; };
+		B24A73BB0F34F1C636D40F81 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DAAE4CCED6D4143681602E /* Locations.swift */; };
+		B28C293D750894B6D6DCB760 /* DeviceForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4004246EAD29348560B89CA7 /* DeviceForm.swift */; };
+		BD21F6FE3AD43B7A4452E34A /* FleetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F90ED3C0A57A163A5EB34 /* FleetMapView.swift */; };
+		BF066C0000D5D817D1800FC8 /* OwnerGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ED0DCC84CA628B11B20D2 /* OwnerGateway.swift */; };
+		C029573EE7D91C777ECDC64E /* SettingsScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3580FD7755C8EDC6ABDA4AB /* SettingsScreens.swift */; };
+		C71E0A62AD875B39FD915536 /* TrackerModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5383AB4720A3BD4C1026E /* TrackerModelTests.swift */; };
 		C777C0B95727B98FE3EB3A16 /* ScreenshotTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD2320D54E1C2B5DEA3E74 /* ScreenshotTour.swift */; };
+		C7BAFD2CBFB12812ABC1D543 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998C6FD57B2107B06533AB8 /* Core.swift */; };
 		C92F93EF123442FC186F0882 /* PolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1191ABD56DCC2B167A25DD /* PolicyTests.swift */; };
-		CB27F750C90455704436776B /* FleetSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696230C0905FF8334FABEF1 /* FleetSharing.swift */; };
-		CC27C00C2FE18ADE72E86F0C /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3042D23C0EED2D45E16274C /* Money.swift */; };
-		D03C9F9563CE10F7A7D072EC /* TrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78E455A4582721FFABC0D42 /* TrackerModel.swift */; };
-		D24EB211C30847E5750DEE36 /* CloudKitSelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103B2A0506E3A7F20EE28C57 /* CloudKitSelfTest.swift */; };
-		D5A442F656544648DDC440A7 /* CustomerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A966B52F27C5E5292AFC2EC /* CustomerForm.swift */; };
+		CAC0873DE1AB7FBFC4E8DC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5201A5F99352DD743F233E22 /* Assets.xcassets */; };
+		D0970137B640E5289CD58B8D /* RentalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEB34117B4C7FE79DA0F87 /* RentalDetail.swift */; };
 		DF4F90D2DC23D6F867512970 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A070659B52E0F1053779B5 /* LocationTests.swift */; };
 		DFDDD1EAE73C7A2D830D0E09 /* TabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2FA3D7359DAFABE9C9012 /* TabBarUITests.swift */; };
-		E0D0FC7B0CC3EA91BF7F2821 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28C9AAF7A137D8AAD76920 /* Tokens.swift */; };
-		E1FF74790BBFF37BEBDAD198 /* TrackerModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5383AB4720A3BD4C1026E /* TrackerModelTests.swift */; };
-		E5BDB5CA04BE5806F84D4D0C /* RentalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F152262BDFCE5EF5BA66A3 /* RentalDetail.swift */; };
-		E811BC80E7367DEC361BACB8 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 43C9E2776FF63B65E4AD2B65 /* InfoPlist.xcstrings */; };
-		E8FED070F0178EB167E42E1E /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28C9AAF7A137D8AAD76920 /* Tokens.swift */; };
-		EC43F0015E33C785BEC413D2 /* LocationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13DFD0A4171226FD5B858E /* LocationSample.swift */; };
-		F0B87F4274A87E8106240C0B /* AuthViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA83E2DB05D4854E811EFA8 /* AuthViews.swift */; };
-		F0F5F711FEE5A45A9531A959 /* FleetSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696230C0905FF8334FABEF1 /* FleetSharing.swift */; };
-		F2607E1D5F6C82BB4142E460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77AEA4BB4332FD71F151275F /* Assets.xcassets */; };
-		F28A70A2727EEBDF2E313D4C /* RentroTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E58960AE446F5FE58127D74 /* RentroTrackerApp.swift */; };
-		F7C4480180B2A1A60F036037 /* RentroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F5D425FA327F74DDFAD7D /* RentroApp.swift */; };
-		FDA3F07923605D71E1965A4B /* TrackerAdminViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4543310D23F0D4C8CDD93 /* TrackerAdminViews.swift */; };
-		FFEFF1F616DDE7E9B7DF2C62 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673284BF3221DF5709E8D7F0 /* SettingsView.swift */; };
+		E7FD72BC3ED792181FDA5A5E /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E915C0CE8D15DE219E70A6 /* Booking.swift */; };
+		ECE32ACFEC43F0112EC361D0 /* Pairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BBFCA06847368B4EF366A8 /* Pairing.swift */; };
+		FBA9EFEF40A80C40071E9475 /* SecondaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D1A23F75880D392632A9B /* SecondaryViews.swift */; };
+		FC960F679F88C4EBB517E5A5 /* CloudKitGateways.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9F8848188D87349A6DDDC /* CloudKitGateways.swift */; };
+		FD126C20101183B88FD25408 /* FleetSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696230C0905FF8334FABEF1 /* FleetSharing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		10D51571DCEC42DBA697E9CB /* PBXContainerItemProxy */ = {
+		5E905D06B301D79C4045816D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6D04B64541D9B5C68A6C11F4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E63953BA414DD736D5BAADB6;
-			remoteInfo = RentroTracker;
+			remoteGlobalIDString = 300FBFCAE4239C738A675CA2;
+			remoteInfo = Rentro;
 		};
-		3B984BFA52C8FE3BD97386BA /* PBXContainerItemProxy */ = {
+		A2E57959ECACDBEC4B3516D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6D04B64541D9B5C68A6C11F4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7751507040D1F03EDEAB9ACE;
-			remoteInfo = RentroAdmin;
-		};
-		9B4671C4A3C0C089A3D46439 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D04B64541D9B5C68A6C11F4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E63953BA414DD736D5BAADB6;
-			remoteInfo = RentroTracker;
-		};
-		CA03F7524AA8D8EDAF5BECAB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D04B64541D9B5C68A6C11F4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7751507040D1F03EDEAB9ACE;
-			remoteInfo = RentroAdmin;
+			remoteGlobalIDString = 300FBFCAE4239C738A675CA2;
+			remoteInfo = Rentro;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05C1753DCF7BB98D477A99A1 /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		006CFC3A9DF97719E93B8615 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		04C206BDF6CBBE8A433C0D4B /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		103B2A0506E3A7F20EE28C57 /* CloudKitSelfTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSelfTest.swift; sourceTree = "<group>"; };
-		11B3B1952572ECC6D4E2731A /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		134154572D3A1BCA52F8F8DE /* NewRentalFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRentalFlow.swift; sourceTree = "<group>"; };
+		147F90ED3C0A57A163A5EB34 /* FleetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetMapView.swift; sourceTree = "<group>"; };
 		1A4E25C2DA20CD6582410855 /* LoopbackServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopbackServer.swift; sourceTree = "<group>"; };
-		1A9EB370A9CA24C79727C6DD /* RentroAdmin.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RentroAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE5383AB4720A3BD4C1026E /* TrackerModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerModelTests.swift; sourceTree = "<group>"; };
 		20743A315A65992F7780BA17 /* Freshness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Freshness.swift; sourceTree = "<group>"; };
-		2AB84E73596F36B0D8E1B911 /* RentalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsView.swift; sourceTree = "<group>"; };
-		2EFF1DBC5DC019B312E396D2 /* FleetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetMapView.swift; sourceTree = "<group>"; };
-		2F445A2BF86FE6FEF367FC80 /* RentroTracker.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RentroTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F4F5D425FA327F74DDFAD7D /* RentroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentroApp.swift; sourceTree = "<group>"; };
-		31C259C9164AAF156B415217 /* NewRentalFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRentalFlow.swift; sourceTree = "<group>"; };
+		30DAAE4CCED6D4143681602E /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		323267E9C757AF7C15210A2B /* RentroTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RentroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3463CA4B3E98E873C8995222 /* BrandIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandIntro.swift; sourceTree = "<group>"; };
 		34BBFCA06847368B4EF366A8 /* Pairing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairing.swift; sourceTree = "<group>"; };
-		3B65C9DDFAAC8F7E3BBD2B44 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		385D1EE3131D9A038EBD1FAA /* Rentro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rentro.entitlements; sourceTree = "<group>"; };
+		3CC7933BB2663CD5FDCCD651 /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
 		3D4AD49A93C15A7C6EF5B3D5 /* BookingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTests.swift; sourceTree = "<group>"; };
-		3E58960AE446F5FE58127D74 /* RentroTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentroTrackerApp.swift; sourceTree = "<group>"; };
-		43C9E2776FF63B65E4AD2B65 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
-		44A5CEC25F3D99A9245A5E60 /* FleetLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetLink.swift; sourceTree = "<group>"; };
-		4E8B3A1CD7BFFD359C0A2A78 /* SettingsScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreens.swift; sourceTree = "<group>"; };
+		4004246EAD29348560B89CA7 /* DeviceForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceForm.swift; sourceTree = "<group>"; };
+		421D1A23F75880D392632A9B /* SecondaryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViews.swift; sourceTree = "<group>"; };
+		424CB6BD7B1614FEB3D8522F /* Rentro.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Rentro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6A1329783A05168F99D39C /* RentroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentroApp.swift; sourceTree = "<group>"; };
+		5070514815524BEFF7A11FE2 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		5201A5F99352DD743F233E22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F9F8848188D87349A6DDDC /* CloudKitGateways.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitGateways.swift; sourceTree = "<group>"; };
-		5CA83E2DB05D4854E811EFA8 /* AuthViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViews.swift; sourceTree = "<group>"; };
-		5D371461C5B3DFC9F4D650C4 /* DeviceForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceForm.swift; sourceTree = "<group>"; };
-		673284BF3221DF5709E8D7F0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		695F1B457E480B5A3BD4CAE4 /* RentroTrackerUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RentroTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DB31F0221E5BED8DF95449 /* TrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerModel.swift; sourceTree = "<group>"; };
+		55DE3DD2B637F3342D8F9AA3 /* RentalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsView.swift; sourceTree = "<group>"; };
+		61DC55DAD47B5D1A1E2C0573 /* TrackerAdminViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerAdminViews.swift; sourceTree = "<group>"; };
+		66ABABD9547DAC63CFB0B481 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		6FDD2320D54E1C2B5DEA3E74 /* ScreenshotTour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotTour.swift; sourceTree = "<group>"; };
-		77AEA4BB4332FD71F151275F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		78CDF51E278764B9A4AD074E /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
-		8489E180625511E201A6768B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		70E4927796BA2243A7C49120 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		75E915C0CE8D15DE219E70A6 /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		78BEB34117B4C7FE79DA0F87 /* RentalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalDetail.swift; sourceTree = "<group>"; };
+		82321DD416D68C27D5F2C202 /* TrackerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViews.swift; sourceTree = "<group>"; };
 		8998C6FD57B2107B06533AB8 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
-		89CB1FA3B65C87829F11848E /* BrandIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandIntro.swift; sourceTree = "<group>"; };
-		8AB74C4AEEA752CF910BA3F5 /* Rentro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rentro.entitlements; sourceTree = "<group>"; };
 		8DC5A067025D73DFE73D1C28 /* TrackerTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTransport.swift; sourceTree = "<group>"; };
-		956D4311BC70F8B1E4FCDA81 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
-		9839539F8A7B91D0FBD1064D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		987ABBE68217779B1B3F3F22 /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
 		99D2E4741E2AA004002735DA /* TrackerCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerCoreTests.swift; sourceTree = "<group>"; };
 		99F2FA3D7359DAFABE9C9012 /* TabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUITests.swift; sourceTree = "<group>"; };
-		9A966B52F27C5E5292AFC2EC /* CustomerForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerForm.swift; sourceTree = "<group>"; };
-		9CEA49C1F931E3EA49C385AA /* RentroTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RentroTracker.entitlements; sourceTree = "<group>"; };
 		9FCFFF197B74DC6699B01865 /* RentroUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RentroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21B2827DD526F24D42FDD45 /* KeychainSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSlot.swift; sourceTree = "<group>"; };
-		A481701588A2249C0E93022F /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
-		A518661E039E7EFE00330BFC /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
 		A619F025B5095446F1D5D116 /* AlertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsTests.swift; sourceTree = "<group>"; };
-		A9F152262BDFCE5EF5BA66A3 /* RentalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalDetail.swift; sourceTree = "<group>"; };
+		A9198018DF306483B86AF11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AE13DFD0A4171226FD5B858E /* LocationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSample.swift; sourceTree = "<group>"; };
 		AF1191ABD56DCC2B167A25DD /* PolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyTests.swift; sourceTree = "<group>"; };
-		B153E0329B7726E55F70BF31 /* FleetSharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetSharingView.swift; sourceTree = "<group>"; };
 		B39C6CC0DE6635ED53A43F45 /* AccessibilityAuditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityAuditTests.swift; sourceTree = "<group>"; };
 		B3A070659B52E0F1053779B5 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
-		B649239DB22FFFEC8F18257E /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
-		B78E455A4582721FFABC0D42 /* TrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerModel.swift; sourceTree = "<group>"; };
-		B7E54BE49C4B24A2F2047620 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		B847A7D38DB18138424799F4 /* Fixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
+		B64DDA1EAA06CC84C7C93A20 /* CustomerForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerForm.swift; sourceTree = "<group>"; };
+		BC1EDC40BC30592A050BF9F1 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		C09BD3460FFBC8461B2E3769 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C2C5353AD3A388F70AC9DC3D /* CloudKitSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSchema.swift; sourceTree = "<group>"; };
-		C2D4543310D23F0D4C8CDD93 /* TrackerAdminViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerAdminViews.swift; sourceTree = "<group>"; };
-		C6B4B740B810D98D10DCE7F7 /* SecondaryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViews.swift; sourceTree = "<group>"; };
+		C6424D47F1BC58143CF52F25 /* TrackerWiring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerWiring.swift; sourceTree = "<group>"; };
+		C745EB4F0ECD10437E12CDD4 /* FleetSharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetSharingView.swift; sourceTree = "<group>"; };
+		D40B1A967CA9A77592E2B3C2 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		D696230C0905FF8334FABEF1 /* FleetSharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetSharing.swift; sourceTree = "<group>"; };
 		D72267C57169845896CF6551 /* TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUITests.swift; sourceTree = "<group>"; };
+		D727D210849FBA66FFC099B2 /* AuthViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViews.swift; sourceTree = "<group>"; };
 		D80ED0DCC84CA628B11B20D2 /* OwnerGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerGateway.swift; sourceTree = "<group>"; };
-		D8C284DD2C6D8A064F2C3A8E /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
-		DACE04303A76B2C25F352819 /* TrackerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViews.swift; sourceTree = "<group>"; };
-		DB79A796371D811521B0FEDA /* RentroTrackerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RentroTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E182FFB1DA9E312B08EB66EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3580FD7755C8EDC6ABDA4AB /* SettingsScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreens.swift; sourceTree = "<group>"; };
+		E473C284488ABB3A6C8F2EAD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E53B9C9DFC5FF6F310872B4D /* TrackerDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDomain.swift; sourceTree = "<group>"; };
+		E5AC31D43F583A25506B7340 /* Fixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
+		E673BC766CA59E02341BCB60 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		EB26010419FC6F67B3E67BB9 /* DomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainTests.swift; sourceTree = "<group>"; };
 		EE28C9AAF7A137D8AAD76920 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
-		F059CFE5EDD86735423C5BC6 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
 		F3042D23C0EED2D45E16274C /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
-		FD0E0B5C6CECB94841D99CA7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F7B52EBD427B411636717CF5 /* FleetLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0453ECB6C2905A1497CB6231 /* Apps */ = {
 			isa = PBXGroup;
 			children = (
-				3C478EE5652638EA3E58B57D /* RentroAdmin */,
-				6863D262D2BA78FB94EC147E /* RentroTracker */,
+				29AF984E87C04B9EB9C01E92 /* Rentro */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
 		};
-		121AD8BA75369624FEF72CE9 /* Resources */ = {
+		17EDA0DEDB87A2CC1534ABF8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E182FFB1DA9E312B08EB66EF /* Assets.xcassets */,
-				FD0E0B5C6CECB94841D99CA7 /* Localizable.xcstrings */,
-				8AB74C4AEEA752CF910BA3F5 /* Rentro.entitlements */,
+				5201A5F99352DD743F233E22 /* Assets.xcassets */,
+				A9198018DF306483B86AF11E /* Info.plist */,
+				BC1EDC40BC30592A050BF9F1 /* InfoPlist.xcstrings */,
+				70E4927796BA2243A7C49120 /* Localizable.xcstrings */,
+				385D1EE3131D9A038EBD1FAA /* Rentro.entitlements */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		1B85AC1115E4E5D95BAE6FB5 /* Resources */ = {
+		29AF984E87C04B9EB9C01E92 /* Rentro */ = {
 			isa = PBXGroup;
 			children = (
-				77AEA4BB4332FD71F151275F /* Assets.xcassets */,
-				8489E180625511E201A6768B /* Info.plist */,
-				43C9E2776FF63B65E4AD2B65 /* InfoPlist.xcstrings */,
-				B7E54BE49C4B24A2F2047620 /* Localizable.xcstrings */,
-				9CEA49C1F931E3EA49C385AA /* RentroTracker.entitlements */,
+				CACEEA9CB20BB6273F710604 /* Owner */,
+				17EDA0DEDB87A2CC1534ABF8 /* Resources */,
+				CC95ACA0E1005530EABD40E3 /* Tracker */,
 			);
-			path = Resources;
+			path = Rentro;
 			sourceTree = "<group>";
 		};
-		2EE61A10C97ECABD6879812F /* Features */ = {
+		2D0DC8F1142538CF9CA1EF20 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				DACE04303A76B2C25F352819 /* TrackerViews.swift */,
+				F7B52EBD427B411636717CF5 /* FleetLink.swift */,
+				5070514815524BEFF7A11FE2 /* LocationProvider.swift */,
+				53DB31F0221E5BED8DF95449 /* TrackerModel.swift */,
+				C6424D47F1BC58143CF52F25 /* TrackerWiring.swift */,
 			);
-			path = Features;
+			path = App;
 			sourceTree = "<group>";
 		};
 		3008E247316630111A5D9424 /* TrackerUITests */ = {
@@ -250,18 +215,6 @@
 			path = Unit;
 			sourceTree = "<group>";
 		};
-		3C478EE5652638EA3E58B57D /* RentroAdmin */ = {
-			isa = PBXGroup;
-			children = (
-				6A387D49C47A97E0B4B02F5E /* App */,
-				CEB006567C27EDD76272D16B /* DesignSystem */,
-				F5B56D5D5FEA64F7B6FC3F85 /* Domain */,
-				658571C65F0CA48AC835A1DF /* Features */,
-				121AD8BA75369624FEF72CE9 /* Resources */,
-			);
-			path = RentroAdmin;
-			sourceTree = "<group>";
-		};
 		44FD23ECDF9BFEB2897D340B /* UITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,56 +236,37 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		5673DE6DE62F60BF996F62C0 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				04C206BDF6CBBE8A433C0D4B /* Alerts.swift */,
+				66ABABD9547DAC63CFB0B481 /* AppStore.swift */,
+				987ABBE68217779B1B3F3F22 /* AuthStore.swift */,
+				75E915C0CE8D15DE219E70A6 /* Booking.swift */,
+				E5AC31D43F583A25506B7340 /* Fixtures.swift */,
+				30DAAE4CCED6D4143681602E /* Locations.swift */,
+				C09BD3460FFBC8461B2E3769 /* Models.swift */,
+				E673BC766CA59E02341BCB60 /* Services.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		5B8FD6E27B71C1AD9C35CBC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A9EB370A9CA24C79727C6DD /* RentroAdmin.app */,
+				424CB6BD7B1614FEB3D8522F /* Rentro.app */,
 				323267E9C757AF7C15210A2B /* RentroTests.xctest */,
-				2F445A2BF86FE6FEF367FC80 /* RentroTracker.app */,
-				DB79A796371D811521B0FEDA /* RentroTrackerTests.xctest */,
-				695F1B457E480B5A3BD4CAE4 /* RentroTrackerUITests.xctest */,
 				9FCFFF197B74DC6699B01865 /* RentroUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		658571C65F0CA48AC835A1DF /* Features */ = {
+		72ED2513895A93E86DDDD1A1 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				5CA83E2DB05D4854E811EFA8 /* AuthViews.swift */,
-				9A966B52F27C5E5292AFC2EC /* CustomerForm.swift */,
-				5D371461C5B3DFC9F4D650C4 /* DeviceForm.swift */,
-				05C1753DCF7BB98D477A99A1 /* DevicesView.swift */,
-				2EFF1DBC5DC019B312E396D2 /* FleetMapView.swift */,
-				B153E0329B7726E55F70BF31 /* FleetSharingView.swift */,
-				3B65C9DDFAAC8F7E3BBD2B44 /* HomeView.swift */,
-				31C259C9164AAF156B415217 /* NewRentalFlow.swift */,
-				A9F152262BDFCE5EF5BA66A3 /* RentalDetail.swift */,
-				2AB84E73596F36B0D8E1B911 /* RentalsView.swift */,
-				C6B4B740B810D98D10DCE7F7 /* SecondaryViews.swift */,
-				4E8B3A1CD7BFFD359C0A2A78 /* SettingsScreens.swift */,
-				673284BF3221DF5709E8D7F0 /* SettingsView.swift */,
-				C2D4543310D23F0D4C8CDD93 /* TrackerAdminViews.swift */,
+				82321DD416D68C27D5F2C202 /* TrackerViews.swift */,
 			);
 			path = Features;
-			sourceTree = "<group>";
-		};
-		6863D262D2BA78FB94EC147E /* RentroTracker */ = {
-			isa = PBXGroup;
-			children = (
-				A40B155F2568F1A00EEE6AD8 /* App */,
-				2EE61A10C97ECABD6879812F /* Features */,
-				1B85AC1115E4E5D95BAE6FB5 /* Resources */,
-			);
-			path = RentroTracker;
-			sourceTree = "<group>";
-		};
-		6A387D49C47A97E0B4B02F5E /* App */ = {
-			isa = PBXGroup;
-			children = (
-				2F4F5D425FA327F74DDFAD7D /* RentroApp.swift */,
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 		95E42FB10487ADA610173A58 /* Shared */ = {
@@ -366,15 +300,13 @@
 			);
 			sourceTree = "<group>";
 		};
-		A40B155F2568F1A00EEE6AD8 /* App */ = {
+		B6A9508399190DFAAC44DA4E /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				44A5CEC25F3D99A9245A5E60 /* FleetLink.swift */,
-				F059CFE5EDD86735423C5BC6 /* LocationProvider.swift */,
-				3E58960AE446F5FE58127D74 /* RentroTrackerApp.swift */,
-				B78E455A4582721FFABC0D42 /* TrackerModel.swift */,
+				3463CA4B3E98E873C8995222 /* BrandIntro.swift */,
+				D40B1A967CA9A77592E2B3C2 /* Components.swift */,
 			);
-			path = App;
+			path = DesignSystem;
 			sourceTree = "<group>";
 		};
 		BBFD577FDA2F2256397E237B /* TrackerUnit */ = {
@@ -394,68 +326,75 @@
 			path = DesignSystem;
 			sourceTree = "<group>";
 		};
-		CEB006567C27EDD76272D16B /* DesignSystem */ = {
+		C4C37D97E2FCD31FA5FBB1B2 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				89CB1FA3B65C87829F11848E /* BrandIntro.swift */,
-				B649239DB22FFFEC8F18257E /* Components.swift */,
+				4F6A1329783A05168F99D39C /* RentroApp.swift */,
 			);
-			path = DesignSystem;
+			path = App;
 			sourceTree = "<group>";
 		};
-		F5B56D5D5FEA64F7B6FC3F85 /* Domain */ = {
+		CACEEA9CB20BB6273F710604 /* Owner */ = {
 			isa = PBXGroup;
 			children = (
-				11B3B1952572ECC6D4E2731A /* Alerts.swift */,
-				956D4311BC70F8B1E4FCDA81 /* AppStore.swift */,
-				A518661E039E7EFE00330BFC /* AuthStore.swift */,
-				A481701588A2249C0E93022F /* Booking.swift */,
-				B847A7D38DB18138424799F4 /* Fixtures.swift */,
-				78CDF51E278764B9A4AD074E /* Locations.swift */,
-				9839539F8A7B91D0FBD1064D /* Models.swift */,
-				D8C284DD2C6D8A064F2C3A8E /* Services.swift */,
+				C4C37D97E2FCD31FA5FBB1B2 /* App */,
+				B6A9508399190DFAAC44DA4E /* DesignSystem */,
+				5673DE6DE62F60BF996F62C0 /* Domain */,
+				D00312B9CDC8768525774162 /* Features */,
 			);
-			path = Domain;
+			path = Owner;
+			sourceTree = "<group>";
+		};
+		CC95ACA0E1005530EABD40E3 /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				2D0DC8F1142538CF9CA1EF20 /* App */,
+				72ED2513895A93E86DDDD1A1 /* Features */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
+		D00312B9CDC8768525774162 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D727D210849FBA66FFC099B2 /* AuthViews.swift */,
+				B64DDA1EAA06CC84C7C93A20 /* CustomerForm.swift */,
+				4004246EAD29348560B89CA7 /* DeviceForm.swift */,
+				3CC7933BB2663CD5FDCCD651 /* DevicesView.swift */,
+				147F90ED3C0A57A163A5EB34 /* FleetMapView.swift */,
+				C745EB4F0ECD10437E12CDD4 /* FleetSharingView.swift */,
+				E473C284488ABB3A6C8F2EAD /* HomeView.swift */,
+				134154572D3A1BCA52F8F8DE /* NewRentalFlow.swift */,
+				78BEB34117B4C7FE79DA0F87 /* RentalDetail.swift */,
+				55DE3DD2B637F3342D8F9AA3 /* RentalsView.swift */,
+				421D1A23F75880D392632A9B /* SecondaryViews.swift */,
+				E3580FD7755C8EDC6ABDA4AB /* SettingsScreens.swift */,
+				006CFC3A9DF97719E93B8615 /* SettingsView.swift */,
+				61DC55DAD47B5D1A1E2C0573 /* TrackerAdminViews.swift */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4FBEED60F22CA4579D3BFFB2 /* RentroTrackerUITests */ = {
+		300FBFCAE4239C738A675CA2 /* Rentro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E065254BF7715B133C063DA5 /* Build configuration list for PBXNativeTarget "RentroTrackerUITests" */;
+			buildConfigurationList = 931C86790C934F1AEEC6C12B /* Build configuration list for PBXNativeTarget "Rentro" */;
 			buildPhases = (
-				C01446A02F3E051AA0D8B3C1 /* Sources */,
+				F19852FF16AF8372CA2F9F0E /* Sources */,
+				526C25E9C90283F8F72B651E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2327F5114E3C1C1DB76057A6 /* PBXTargetDependency */,
 			);
-			name = RentroTrackerUITests;
+			name = Rentro;
 			packageProductDependencies = (
 			);
-			productName = RentroTrackerUITests;
-			productReference = 695F1B457E480B5A3BD4CAE4 /* RentroTrackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		5CB032096806635E22092207 /* RentroTrackerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3984AE61C03E354BCF574999 /* Build configuration list for PBXNativeTarget "RentroTrackerTests" */;
-			buildPhases = (
-				E03B2FAE5AFBF4E254A2A3C6 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				19FB90C768234CA1C49B6276 /* PBXTargetDependency */,
-			);
-			name = RentroTrackerTests;
-			packageProductDependencies = (
-			);
-			productName = RentroTrackerTests;
-			productReference = DB79A796371D811521B0FEDA /* RentroTrackerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productName = Rentro;
+			productReference = 424CB6BD7B1614FEB3D8522F /* Rentro.app */;
+			productType = "com.apple.product-type.application";
 		};
 		67C89F467A148D3812B7F184 /* RentroUITests */ = {
 			isa = PBXNativeTarget;
@@ -466,7 +405,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F111BD3D19E72BEE86B380F2 /* PBXTargetDependency */,
+				FDD2978C20531CDEC69FDBAF /* PBXTargetDependency */,
 			);
 			name = RentroUITests;
 			packageProductDependencies = (
@@ -474,24 +413,6 @@
 			productName = RentroUITests;
 			productReference = 9FCFFF197B74DC6699B01865 /* RentroUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		7751507040D1F03EDEAB9ACE /* RentroAdmin */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A372D59ED3E742D857D5E2EE /* Build configuration list for PBXNativeTarget "RentroAdmin" */;
-			buildPhases = (
-				18089D1F408D8C66B687417A /* Sources */,
-				6EEF6A7FC0BCEDBAED066016 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RentroAdmin;
-			packageProductDependencies = (
-			);
-			productName = RentroAdmin;
-			productReference = 1A9EB370A9CA24C79727C6DD /* RentroAdmin.app */;
-			productType = "com.apple.product-type.application";
 		};
 		8BF9A17EE6F9A26FB8EEE735 /* RentroTests */ = {
 			isa = PBXNativeTarget;
@@ -502,7 +423,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				29060C7EA8B8AF4BF6C1CE37 /* PBXTargetDependency */,
+				FD2EB081B8AA50365597EC33 /* PBXTargetDependency */,
 			);
 			name = RentroTests;
 			packageProductDependencies = (
@@ -510,24 +431,6 @@
 			productName = RentroTests;
 			productReference = 323267E9C757AF7C15210A2B /* RentroTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E63953BA414DD736D5BAADB6 /* RentroTracker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 625842498C7A5B0F11ECE242 /* Build configuration list for PBXNativeTarget "RentroTracker" */;
-			buildPhases = (
-				2BC1BD1611AAB4972B2859A3 /* Sources */,
-				0FE6569D00459BA12D336433 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RentroTracker;
-			packageProductDependencies = (
-			);
-			productName = RentroTracker;
-			productReference = 2F445A2BF86FE6FEF367FC80 /* RentroTracker.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -538,24 +441,14 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					4FBEED60F22CA4579D3BFFB2 = {
-						DevelopmentTeam = JLQK39AS23;
-						TestTargetID = E63953BA414DD736D5BAADB6;
-					};
-					5CB032096806635E22092207 = {
+					300FBFCAE4239C738A675CA2 = {
 						DevelopmentTeam = JLQK39AS23;
 					};
 					67C89F467A148D3812B7F184 = {
 						DevelopmentTeam = JLQK39AS23;
-						TestTargetID = 7751507040D1F03EDEAB9ACE;
-					};
-					7751507040D1F03EDEAB9ACE = {
-						DevelopmentTeam = JLQK39AS23;
+						TestTargetID = 300FBFCAE4239C738A675CA2;
 					};
 					8BF9A17EE6F9A26FB8EEE735 = {
-						DevelopmentTeam = JLQK39AS23;
-					};
-					E63953BA414DD736D5BAADB6 = {
 						DevelopmentTeam = JLQK39AS23;
 					};
 				};
@@ -575,33 +468,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7751507040D1F03EDEAB9ACE /* RentroAdmin */,
+				300FBFCAE4239C738A675CA2 /* Rentro */,
 				8BF9A17EE6F9A26FB8EEE735 /* RentroTests */,
 				67C89F467A148D3812B7F184 /* RentroUITests */,
-				E63953BA414DD736D5BAADB6 /* RentroTracker */,
-				5CB032096806635E22092207 /* RentroTrackerTests */,
-				4FBEED60F22CA4579D3BFFB2 /* RentroTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0FE6569D00459BA12D336433 /* Resources */ = {
+		526C25E9C90283F8F72B651E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2607E1D5F6C82BB4142E460 /* Assets.xcassets in Resources */,
-				E811BC80E7367DEC361BACB8 /* InfoPlist.xcstrings in Resources */,
-				955D2B36EC66BBECEF33AF08 /* Localizable.xcstrings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EEF6A7FC0BCEDBAED066016 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23BA200E9DF5DBAE262C52B3 /* Assets.xcassets in Resources */,
-				74FC3C9D09224D63F9EFB37F /* Localizable.xcstrings in Resources */,
+				CAC0873DE1AB7FBFC4E8DC8E /* Assets.xcassets in Resources */,
+				5C5E35D73305DE98FFF90A08 /* InfoPlist.xcstrings in Resources */,
+				8E41D705F1AB7B2FD51E78BE /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,80 +499,7 @@
 				DF4F90D2DC23D6F867512970 /* LocationTests.swift in Sources */,
 				C92F93EF123442FC186F0882 /* PolicyTests.swift in Sources */,
 				668D9CE1C588133920921AA6 /* TrackerCoreTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18089D1F408D8C66B687417A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				527010D5F46B9DE91AA33555 /* Alerts.swift in Sources */,
-				4ECD2AF77352B9400029CF1D /* AppStore.swift in Sources */,
-				B23DBC52B51EEF1E3738DAD8 /* AuthStore.swift in Sources */,
-				F0B87F4274A87E8106240C0B /* AuthViews.swift in Sources */,
-				2E486B07494189207357D904 /* Booking.swift in Sources */,
-				7BCA635524BABC6AA2879FD6 /* BrandIntro.swift in Sources */,
-				95B3D6E1194B9FB4EE1C26EE /* CloudKitGateways.swift in Sources */,
-				A0112ADCFC010C6AA6D1F29F /* CloudKitSchema.swift in Sources */,
-				19745455F8CDE111E7DD830E /* CloudKitSelfTest.swift in Sources */,
-				BAAA6324C0C40A8479560B8E /* Components.swift in Sources */,
-				6304607C1CC9BC262D868939 /* Core.swift in Sources */,
-				D5A442F656544648DDC440A7 /* CustomerForm.swift in Sources */,
-				0E0013E930F18F2CCA8D3402 /* DeviceForm.swift in Sources */,
-				70518ED9C1EE9639F1FB01D3 /* DevicesView.swift in Sources */,
-				4D66A05DAFE72EA5ACF89871 /* Fixtures.swift in Sources */,
-				18B27E25770CB8B7554227C5 /* FleetMapView.swift in Sources */,
-				CB27F750C90455704436776B /* FleetSharing.swift in Sources */,
-				4252A7D82ABCB917D48179F0 /* FleetSharingView.swift in Sources */,
-				257B29E5B887EEBDEE3C210F /* Freshness.swift in Sources */,
-				2EF35DD60E691ED14251C146 /* HomeView.swift in Sources */,
-				21346799D509275B8382F0B4 /* KeychainSlot.swift in Sources */,
-				EC43F0015E33C785BEC413D2 /* LocationSample.swift in Sources */,
-				8AE60BAB2CF0C10D7B0DC0E2 /* Locations.swift in Sources */,
-				758F061DC1E8BDBD406CC46C /* LoopbackServer.swift in Sources */,
-				24F29CE84C20E4C7CC0FE45B /* Models.swift in Sources */,
-				CC27C00C2FE18ADE72E86F0C /* Money.swift in Sources */,
-				3C2EACC1AF3399A15EDA9851 /* NewRentalFlow.swift in Sources */,
-				8E19F644261BFD4FC1ACBC7E /* OwnerGateway.swift in Sources */,
-				5041D5F172C9C48B70AB3192 /* Pairing.swift in Sources */,
-				E5BDB5CA04BE5806F84D4D0C /* RentalDetail.swift in Sources */,
-				5CC88244FC5EEEE81008FA4E /* RentalsView.swift in Sources */,
-				F7C4480180B2A1A60F036037 /* RentroApp.swift in Sources */,
-				3B667C6B461C9660B1F2089E /* SecondaryViews.swift in Sources */,
-				54F2AF443EF07D2D3D8C150B /* Services.swift in Sources */,
-				2198C5986072097228E89AE9 /* SettingsScreens.swift in Sources */,
-				FFEFF1F616DDE7E9B7DF2C62 /* SettingsView.swift in Sources */,
-				E8FED070F0178EB167E42E1E /* Tokens.swift in Sources */,
-				FDA3F07923605D71E1965A4B /* TrackerAdminViews.swift in Sources */,
-				5D244B7408D0E10DEA9FDF86 /* TrackerDomain.swift in Sources */,
-				A37ADE5D7B273C09D835F1F1 /* TrackerTransport.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2BC1BD1611AAB4972B2859A3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E5139DF2E76483EFA442962 /* CloudKitGateways.swift in Sources */,
-				9F678447C94D7A265C4027DA /* CloudKitSchema.swift in Sources */,
-				D24EB211C30847E5750DEE36 /* CloudKitSelfTest.swift in Sources */,
-				362B2A167A18E46B289E61FC /* Core.swift in Sources */,
-				366CCC77D397480EBF3E6FD9 /* FleetLink.swift in Sources */,
-				F0F5F711FEE5A45A9531A959 /* FleetSharing.swift in Sources */,
-				48456B74473D57D62F65D70B /* Freshness.swift in Sources */,
-				2AF8F6ACC6AB50E7D3D203B8 /* KeychainSlot.swift in Sources */,
-				6D960C1DF5C6FB53D73D89B4 /* LocationProvider.swift in Sources */,
-				908237DCD43119F42DB132F9 /* LocationSample.swift in Sources */,
-				5A262F68E2AAD9BC7C44DF66 /* LoopbackServer.swift in Sources */,
-				7160D86F3CEABADA4FC21810 /* Money.swift in Sources */,
-				3F514F3FD8A9CC56BE26CFA1 /* OwnerGateway.swift in Sources */,
-				1FDC747D467AAEC19B567367 /* Pairing.swift in Sources */,
-				F28A70A2727EEBDF2E313D4C /* RentroTrackerApp.swift in Sources */,
-				E0D0FC7B0CC3EA91BF7F2821 /* Tokens.swift in Sources */,
-				26FC636A2A0BAD8816681305 /* TrackerDomain.swift in Sources */,
-				D03C9F9563CE10F7A7D072EC /* TrackerModel.swift in Sources */,
-				4A691E7C4E1C3A9520039169 /* TrackerTransport.swift in Sources */,
-				9E1FD10BE215E893109B9E4E /* TrackerViews.swift in Sources */,
+				C71E0A62AD875B39FD915536 /* TrackerModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,51 +510,114 @@
 				1E693365019EF751C8A13F26 /* AccessibilityAuditTests.swift in Sources */,
 				C777C0B95727B98FE3EB3A16 /* ScreenshotTour.swift in Sources */,
 				DFDDD1EAE73C7A2D830D0E09 /* TabBarUITests.swift in Sources */,
+				78C8A0B427BC3E0B20182937 /* TrackerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C01446A02F3E051AA0D8B3C1 /* Sources */ = {
+		F19852FF16AF8372CA2F9F0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE37AE3D8802B4A2DE81EDB /* TrackerUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E03B2FAE5AFBF4E254A2A3C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1FF74790BBFF37BEBDAD198 /* TrackerModelTests.swift in Sources */,
+				6B87370EF1ACE512BE65AF00 /* Alerts.swift in Sources */,
+				2095C65ABC9EC61C360D6848 /* AppStore.swift in Sources */,
+				17B0773F0737884B785B7896 /* AuthStore.swift in Sources */,
+				5B13CE5B705AF40A05F090A7 /* AuthViews.swift in Sources */,
+				E7FD72BC3ED792181FDA5A5E /* Booking.swift in Sources */,
+				7395D88F92C8F90F02E9EA99 /* BrandIntro.swift in Sources */,
+				FC960F679F88C4EBB517E5A5 /* CloudKitGateways.swift in Sources */,
+				879319895A1E81228C2D4655 /* CloudKitSchema.swift in Sources */,
+				61AE6A2A639DD62C1BD84896 /* CloudKitSelfTest.swift in Sources */,
+				AF4C2DF5F94FE27F6AD5721F /* Components.swift in Sources */,
+				C7BAFD2CBFB12812ABC1D543 /* Core.swift in Sources */,
+				6BED390D520AF06796D03152 /* CustomerForm.swift in Sources */,
+				B28C293D750894B6D6DCB760 /* DeviceForm.swift in Sources */,
+				2A95030D0016280BBFF2A5B5 /* DevicesView.swift in Sources */,
+				8171926A6F35A1FDF9A64653 /* Fixtures.swift in Sources */,
+				3B066A3FE5A1AFECA5206ABF /* FleetLink.swift in Sources */,
+				BD21F6FE3AD43B7A4452E34A /* FleetMapView.swift in Sources */,
+				FD126C20101183B88FD25408 /* FleetSharing.swift in Sources */,
+				A3602A2DE26AEBB66C28A1D3 /* FleetSharingView.swift in Sources */,
+				6547DBD7ACBFE64A8E4E3252 /* Freshness.swift in Sources */,
+				96F5754992339A21B2C508A2 /* HomeView.swift in Sources */,
+				3C4A3589BBF3348AA938538F /* KeychainSlot.swift in Sources */,
+				7574772CC0F8AECE54BBD461 /* LocationProvider.swift in Sources */,
+				6C117BB2E871E0D98FF13E21 /* LocationSample.swift in Sources */,
+				B24A73BB0F34F1C636D40F81 /* Locations.swift in Sources */,
+				716841118C4C24B1708CDBF4 /* LoopbackServer.swift in Sources */,
+				75AD5853286A0B4AE32A0F56 /* Models.swift in Sources */,
+				6C0A209D47558C35BD232E85 /* Money.swift in Sources */,
+				98D944F1C5958956C2A87104 /* NewRentalFlow.swift in Sources */,
+				BF066C0000D5D817D1800FC8 /* OwnerGateway.swift in Sources */,
+				ECE32ACFEC43F0112EC361D0 /* Pairing.swift in Sources */,
+				D0970137B640E5289CD58B8D /* RentalDetail.swift in Sources */,
+				1C476EFCD9721E01E95362F2 /* RentalsView.swift in Sources */,
+				4823F72D2928148BA1E99D64 /* RentroApp.swift in Sources */,
+				FBA9EFEF40A80C40071E9475 /* SecondaryViews.swift in Sources */,
+				6CDA2C4CFD9C1F77867D3178 /* Services.swift in Sources */,
+				C029573EE7D91C777ECDC64E /* SettingsScreens.swift in Sources */,
+				613BD927279BD0352AEC3AEB /* SettingsView.swift in Sources */,
+				4E14F5B0CEBBE2A151EEC078 /* Tokens.swift in Sources */,
+				5EFD957304F48EEA6A72BA10 /* TrackerAdminViews.swift in Sources */,
+				4FCF0156E4E2BDC73C134EB5 /* TrackerDomain.swift in Sources */,
+				AE2EF919E8D6C1A3364690C9 /* TrackerModel.swift in Sources */,
+				8810C7207C04AD772CEEB049 /* TrackerTransport.swift in Sources */,
+				2589BFFA13DD7B5C175117C0 /* TrackerViews.swift in Sources */,
+				5FDFB42AEC27F1CC1EEF9DA4 /* TrackerWiring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		19FB90C768234CA1C49B6276 /* PBXTargetDependency */ = {
+		FD2EB081B8AA50365597EC33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E63953BA414DD736D5BAADB6 /* RentroTracker */;
-			targetProxy = 9B4671C4A3C0C089A3D46439 /* PBXContainerItemProxy */;
+			target = 300FBFCAE4239C738A675CA2 /* Rentro */;
+			targetProxy = A2E57959ECACDBEC4B3516D9 /* PBXContainerItemProxy */;
 		};
-		2327F5114E3C1C1DB76057A6 /* PBXTargetDependency */ = {
+		FDD2978C20531CDEC69FDBAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E63953BA414DD736D5BAADB6 /* RentroTracker */;
-			targetProxy = 10D51571DCEC42DBA697E9CB /* PBXContainerItemProxy */;
-		};
-		29060C7EA8B8AF4BF6C1CE37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7751507040D1F03EDEAB9ACE /* RentroAdmin */;
-			targetProxy = 3B984BFA52C8FE3BD97386BA /* PBXContainerItemProxy */;
-		};
-		F111BD3D19E72BEE86B380F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7751507040D1F03EDEAB9ACE /* RentroAdmin */;
-			targetProxy = CA03F7524AA8D8EDAF5BECAB /* PBXContainerItemProxy */;
+			target = 300FBFCAE4239C738A675CA2 /* Rentro */;
+			targetProxy = 5E905D06B301D79C4045816D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		03B0AF1CFB0944C59403AA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Apps/Rentro/Resources/Rentro.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/Rentro/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.admin;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		227C1BBE6112D6BE134A66D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Apps/Rentro/Resources/Rentro.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/Rentro/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.admin;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		2D2E272CDD3AE1DD01C32CCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -760,41 +631,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.uitests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RentroAdmin;
-			};
-			name = Release;
-		};
-		382475C9E2B2F4F2768E8F5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.trackeruitests;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RentroTracker;
-			};
-			name = Release;
-		};
-		39FD7620E9E0EF6CCB60817C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.trackertests;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentroTracker.app/RentroTracker";
+				TEST_TARGET_NAME = Rentro;
 			};
 			name = Release;
 		};
@@ -811,7 +648,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.tests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentroAdmin.app/RentroAdmin";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rentro.app/Rentro";
 			};
 			name = Release;
 		};
@@ -828,7 +665,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.uitests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RentroAdmin;
+				TEST_TARGET_NAME = Rentro;
 			};
 			name = Debug;
 		};
@@ -845,46 +682,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.tests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentroAdmin.app/RentroAdmin";
-			};
-			name = Debug;
-		};
-		6E415133B68249ACBB3DBCA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Apps/RentroAdmin/Resources/Rentro.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Rentro;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UILaunchScreen_BackgroundColor = LaunchBackground;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.admin;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		712A4AC68949A44D4BAE3261 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.trackeruitests;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RentroTracker;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rentro.app/Rentro";
 			};
 			name = Debug;
 		};
@@ -947,81 +745,6 @@
 				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
-		};
-		98C90B14D8D98FAA5E13487F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.trackertests;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentroTracker.app/RentroTracker";
-			};
-			name = Debug;
-		};
-		AB488B0BD2A195BCFC7D1618 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Apps/RentroAdmin/Resources/Rentro.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Rentro;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UILaunchScreen_BackgroundColor = LaunchBackground;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.admin;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		C805C628FBA1131A8E46ACA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Apps/RentroTracker/Resources/RentroTracker.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Apps/RentroTracker/Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.tracker;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		E458189122584EB3DE074C3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Apps/RentroTracker/Resources/RentroTracker.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Apps/RentroTracker/Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentro.tracker;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
 		};
 		FA3CAF5F3622324FA54DC5A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1093,24 +816,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3984AE61C03E354BCF574999 /* Build configuration list for PBXNativeTarget "RentroTrackerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98C90B14D8D98FAA5E13487F /* Debug */,
-				39FD7620E9E0EF6CCB60817C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		625842498C7A5B0F11ECE242 /* Build configuration list for PBXNativeTarget "RentroTracker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E458189122584EB3DE074C3C /* Debug */,
-				C805C628FBA1131A8E46ACA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		6B9491F98B9FF181CF0779A7 /* Build configuration list for PBXProject "Rentro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1129,29 +834,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
+		931C86790C934F1AEEC6C12B /* Build configuration list for PBXNativeTarget "Rentro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B0AF1CFB0944C59403AA99 /* Debug */,
+				227C1BBE6112D6BE134A66D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		98E6D72EB2D3E8CCB306175B /* Build configuration list for PBXNativeTarget "RentroUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CDE41D286F37279306AAFF2 /* Debug */,
 				2D2E272CDD3AE1DD01C32CCD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		A372D59ED3E742D857D5E2EE /* Build configuration list for PBXNativeTarget "RentroAdmin" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E415133B68249ACBB3DBCA0 /* Debug */,
-				AB488B0BD2A195BCFC7D1618 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		E065254BF7715B133C063DA5 /* Build configuration list for PBXNativeTarget "RentroTrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				712A4AC68949A44D4BAE3261 /* Debug */,
-				382475C9E2B2F4F2768E8F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

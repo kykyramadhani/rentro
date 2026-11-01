@@ -1,7 +1,7 @@
 import Foundation
 import SwiftData
 import Testing
-@testable import RentroAdmin
+@testable import Rentro
 
 @MainActor
 struct BookingTests {
@@ -16,7 +16,7 @@ struct BookingTests {
         let device: RentalDevice
         init(turnaround: Int = 0, grace: Int = 0) throws {
             container = try ModelContainer(for: Schema(versionedSchema: RentroSchemaV1.self), migrationPlan: RentroMigrationPlan.self,
-                                           configurations: ModelConfiguration(isStoredInMemoryOnly: true))
+                                           configurations: ModelConfiguration(isStoredInMemoryOnly: true, cloudKitDatabase: .none))
             let c = container.mainContext
             business = try c.createBusiness(owner: "u1", BusinessInput(name: "B", timeZoneID: "Asia/Makassar", dailyRateIDR: 250_000))
             business.turnaroundMinutes = turnaround

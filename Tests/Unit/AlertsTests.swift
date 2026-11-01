@@ -1,7 +1,7 @@
 import Foundation
 import SwiftData
 import Testing
-@testable import RentroAdmin
+@testable import Rentro
 
 @MainActor
 struct AlertsTests {

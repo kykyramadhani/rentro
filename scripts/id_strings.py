@@ -5,6 +5,14 @@ SAME = ["", "%@ · %@", "%@ · %@ · %@", "%@, %@, %@", "%lld", "%lldGB", "+62 �
         "IP-021", "R", "Rp", "K7M2-9QXA", "iPhone 15 Pro", "Rentro", "OK", "Rentro Tracker", "%@ · %lldGB"]
 
 ID = {
+"How will this iPhone be used?": "iPhone ini akan dipakai untuk apa?",
+"Run my rental business": "Menjalankan bisnis sewa saya",
+"Manage rentals, devices, payments and the fleet map.": "Kelola sewa, perangkat, pembayaran, dan peta armada.",
+"This is a rental iPhone": "Ini iPhone sewaan",
+"Pair it with a rental business and share its location only with consent.": "Pasangkan dengan bisnis sewa dan bagikan lokasinya hanya dengan persetujuan.",
+"You can change this later.": "Anda dapat mengubahnya nanti.",
+"This is a rental iPhone instead": "Ini iPhone sewaan",
+"Use Rentro to run a rental business instead": "Pakai Rentro untuk menjalankan bisnis sewa",
 " — may no longer be current.": " — mungkin sudah tidak terkini.",
 "%@ deposit is held. Refund it with Settle Deposit after cancelling.": "Deposit %@ masih ditahan. Kembalikan lewat Selesaikan Deposit setelah pembatalan.",
 "%@ not OK": "%@ bermasalah",
@@ -101,6 +109,7 @@ ID = {
 "Close": "Tutup",
 "Code expired": "Kode kedaluwarsa",
 "Color (optional)": "Warna (opsional)",
+"Coming later": "Segera hadir",
 "Coming later.": "Segera hadir.",
 "Condition checklist": "Daftar kondisi",
 "Condition notes (optional)": "Catatan kondisi (opsional)",

@@ -1,8 +1,17 @@
 import SwiftData
 import SwiftUI
 
+/// One app, two roles chosen on first launch: the owner's business app, or a rental iPhone's tracker.
+enum DeviceRole: String { case owner, tracker }
+
 @main
 struct RentroApp: App {
+    @UIApplicationDelegateAdaptor(TrackerAppDelegate.self) private var appDelegate   // CKShare acceptance (tracker role)
+    @AppStorage("deviceRole") private var role = ""
+    @State private var tracker: TrackerModel
+    #if DEBUG
+    @State private var devCode: DevPairingCode
+    #endif
     private let container: ModelContainer
     @State private var auth: AuthStore
     @State private var sync: LocationSync
@@ -23,8 +32,19 @@ struct RentroApp: App {
         if args.contains("-uiTestSignedIn") || args.contains("-uiTestSignedOut") { storage = .memory }
         if args.contains("-resetBrandIntro") { UserDefaults.standard.removeObject(forKey: "brandIntroSeen") }   // first run again
         if args.contains("-skipBrandIntro") { UserDefaults.standard.set(true, forKey: "brandIntroSeen") }
+        // Each test suite drives one role: the tracker's loopback hook picks tracker, the admin hooks pick owner.
+        if args.contains("-resetDeviceRole") { UserDefaults.standard.removeObject(forKey: "deviceRole") }   // first launch again
+        else if args.contains("-trackerLoopback") { UserDefaults.standard.set(DeviceRole.tracker.rawValue, forKey: "deviceRole") }
+        else if args.contains("-inMemoryStore") || args.contains("-uiTestSignedOut") { UserDefaults.standard.set(DeviceRole.owner.rawValue, forKey: "deviceRole") }
         #endif
-        let config = ModelConfiguration(isStoredInMemoryOnly: memory)
+        #if DEBUG
+        let (trackerModel, code) = TrackerModel.live()
+        _devCode = State(initialValue: code)
+        #else
+        let trackerModel = TrackerModel.live()
+        #endif
+        _tracker = State(initialValue: trackerModel)
+        let config = ModelConfiguration(isStoredInMemoryOnly: memory, cloudKitDatabase: .none)   // owner data is local-first (PRD); only the Fleet zone uses CloudKit
         // ponytail: a failed store open is unrecoverable here; surfaces as a crash at launch rather than silent data loss.
         container = try! ModelContainer(for: Schema(versionedSchema: RentroSchemaV1.self),
                                         migrationPlan: RentroMigrationPlan.self, configurations: config)
@@ -46,14 +66,28 @@ struct RentroApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RootView()
-                .environment(auth)
-                .environment(sync)
-                .environment(fleet)
-                .environment(store)
-                .tint(.brandSelected)
-                .preferredColorScheme(appearance.scheme)
-                .task { if auth.state == .resolving { await auth.restore() } }
+            Group {
+                switch DeviceRole(rawValue: role) {
+                case .owner?:
+                    RootView()
+                        .environment(auth)
+                        .environment(sync)
+                        .environment(fleet)
+                        .environment(store)
+                        .preferredColorScheme(appearance.scheme)
+                        .task { if auth.state == .resolving { await auth.restore() } }
+                case .tracker?:
+                    #if DEBUG
+                    TrackerRootView().environment(tracker).environment(devCode)
+                    #else
+                    TrackerRootView().environment(tracker)
+                    #endif
+                case nil:
+                    RolePickerView { role = $0.rawValue }
+                }
+            }
+            .tint(.brandSelected)
+            .task { ShareAcceptance.handler = { await tracker.acceptFleetShare($0) } }
         }
         .modelContainer(container)
     }

@@ -258,6 +258,21 @@ final class TabBarUITests: XCTestCase {
         app.buttons["rentro.device.save"].tap()
     }
 
+    /// One app, two roles: first launch asks, each role can switch back from its entry screen.
+    @MainActor func testRolePickerChoosesAndSwitchesRole() {
+        let app = XCUIApplication()
+        app.launchArguments = ["-resetDeviceRole", "-skipBrandIntro"]
+        app.launch()
+        let tracker = app.buttons["rentro.role.tracker"]
+        XCTAssertTrue(tracker.waitForExistence(timeout: 5))
+        tracker.tap()
+        XCTAssertTrue(app.buttons["rentro.tracker.pair.manual"].waitForExistence(timeout: 5))
+        app.buttons["rentro.role.change"].tap()
+        app.buttons["rentro.role.owner"].tap()
+        XCTAssertTrue(app.buttons["rentro.signin.apple"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["rentro.role.change"].exists)
+    }
+
     /// Localization: with Indonesian selected the tab bar and key screens are translated, and tab identity is unchanged.
     @MainActor func testIndonesianTabsAndSettings() {
         let app = XCUIApplication()

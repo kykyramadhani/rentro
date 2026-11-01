@@ -1,32 +1,28 @@
 import SwiftUI
 
-#if DEBUG
-/// Dev loopback only: shows the code the in-process server issued so a UI test can pair without a backend.
+/// Dev loopback only: shows the code the in-process server issued so a UI test can pair without a backend. Stays nil in release.
 @MainActor @Observable final class DevPairingCode { var value: String? }
-#endif
 
-@main
-struct RentroTrackerApp: App {
-    @UIApplicationDelegateAdaptor(TrackerAppDelegate.self) private var appDelegate
-    @State private var model: TrackerModel
+extension TrackerModel {
+    /// The tracker role's live wiring (CloudKit when configured), plus the dev loopback used by UI tests.
     #if DEBUG
-    @State private var devCode = DevPairingCode()
+    static func live() -> (TrackerModel, DevPairingCode) { let r = make(); return (r.0, r.1 ?? DevPairingCode()) }
+    #else
+    static func live() -> TrackerModel { make().0 }
     #endif
 
-    init() {
-        #if DEBUG
-        CloudKitSelfTest.runIfRequested()
-        #endif
+    private static func make() -> (TrackerModel, DevPairingCode?) {
         var transport: TrackerTransport = UnconfiguredTransport()      // honest until the iCloud container exists
-        if let id = CloudKitConfig.containerID { transport = CloudKitTrackerTransport(containerID: id) }   // unset until the container exists
+        if let id = CloudKitConfig.containerID { transport = CloudKitTrackerTransport(containerID: id) }
         var fleet: FleetLinking = NoFleetLink()
         if let id = CloudKitConfig.containerID { fleet = CloudKitFleetLink(containerID: id) }
         var location: LocationProviding = CoreLocationProvider()
         var credentials = CredentialStore.keychain
         var persistence = TrackerPersistence.file
+        var code: DevPairingCode?
         #if DEBUG
         let args = ProcessInfo.processInfo.arguments
-        let code = DevPairingCode()
+        code = DevPairingCode()
         if args.contains("-trackerLoopback") {
             let server = LoopbackServer()
             transport = LoopbackTransport(server: server)
@@ -35,22 +31,9 @@ struct RentroTrackerApp: App {
             let grant: OSLocationAuth = args.contains("-fakeLocationDeny") ? .denied : .whenInUse
             location = FakeLocationProvider(grantOnRequest: grant)
             let unit = LoopbackServer.Unit(deviceID: UUID(), unitCode: "IP-001", businessName: "Papa Rental", deviceModel: "iPhone 15 Pro")
-            Task { @MainActor in code.value = await server.issue(for: unit) }
+            Task { @MainActor [code] in code?.value = await server.issue(for: unit) }
         }
-        _devCode = State(initialValue: code)
         #endif
-        _model = State(initialValue: TrackerModel(transport: transport, location: location, credentials: credentials, fleet: fleet, persistence: persistence))
-    }
-
-    var body: some Scene {
-        WindowGroup {
-            let root = TrackerRootView().environment(model).tint(.brandSelected)
-                .task { ShareAcceptance.handler = { await model.acceptFleetShare($0) } }
-            #if DEBUG
-            root.environment(devCode)
-            #else
-            root
-            #endif
-        }
+        return (TrackerModel(transport: transport, location: location, credentials: credentials, fleet: fleet, persistence: persistence), code)
     }
 }

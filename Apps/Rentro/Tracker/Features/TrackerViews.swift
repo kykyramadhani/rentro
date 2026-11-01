@@ -23,6 +23,7 @@ struct TrackerRootView: View {
 
 struct PairView: View {
     @Environment(TrackerModel.self) private var model
+    @AppStorage("deviceRole") private var role = ""
     @State private var manual = false
     @State private var scanning = false
     #if DEBUG
@@ -66,6 +67,8 @@ struct PairView: View {
                     TextLinkButton("Or enter code manually") { manual = true }
                         .disabled(!model.canAttemptPairing)
                         .accessibilityIdentifier("rentro.tracker.pair.manual")
+                    TextLinkButton("Use Rentro to run a rental business instead") { role = "" }
+                        .accessibilityIdentifier("rentro.role.change")
                 }
                 .padding(.horizontal, Space.s20).padding(.bottom, Space.s8).background(Color.bgCanvas)
             }

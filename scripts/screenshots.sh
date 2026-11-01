@@ -22,8 +22,8 @@ PY
 }
 for mode in light dark; do
   xcrun simctl ui "$U" appearance $mode
-  capture RentroAdmin RentroUITests/ScreenshotTour $mode
-  capture RentroTracker RentroTrackerUITests/TrackerScreenshotTour $mode
+  capture Rentro RentroUITests/ScreenshotTour $mode
+  capture Rentro RentroUITests/TrackerScreenshotTour $mode
   echo "$mode: $(ls Docs/screenshots/$mode | wc -l) screens"
 done
 xcrun simctl ui "$U" appearance light

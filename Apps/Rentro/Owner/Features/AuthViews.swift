@@ -3,9 +3,48 @@ import SwiftData
 import SwiftUI
 
 /// S01. Figma 44:578 / 44:1289 minus email/password: PRD v2.0 makes Sign in with Apple the only auth.
+/// First launch: the same app runs the business or tracks a rental iPhone. Changeable later (sign-in / pair screens).
+struct RolePickerView: View {
+    let choose: (DeviceRole) -> Void
+
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: Space.s16) {
+                RentroWordmark().padding(.top, Space.s24 * 2)
+                Text("How will this iPhone be used?").font(.title2.bold()).foregroundStyle(Color.textPrimary).accessibilityAddTraits(.isHeader)
+                option(.owner, symbol: "storefront", title: "Run my rental business",
+                       detail: "Manage rentals, devices, payments and the fleet map.")
+                option(.tracker, symbol: "location.circle", title: "This is a rental iPhone",
+                       detail: "Pair it with a rental business and share its location only with consent.")
+                Text("You can change this later.").font(.footnote).foregroundStyle(Color.textSecondary)
+            }
+            .padding(Space.s20)
+        }
+        .background(Color.bgCanvas.ignoresSafeArea())
+    }
+
+    private func option(_ role: DeviceRole, symbol: String, title: LocalizedStringKey, detail: LocalizedStringKey) -> some View {
+        Button { choose(role) } label: {
+            HStack(alignment: .top, spacing: Space.s12) {
+                IconTile(symbol: symbol)
+                VStack(alignment: .leading, spacing: Space.s4) {
+                    Text(title).font(.headline).foregroundStyle(Color.textPrimary)
+                    Text(detail).font(.subheadline).foregroundStyle(Color.textSecondary).multilineTextAlignment(.leading)
+                }
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right").foregroundStyle(Color.textSecondary).accessibilityHidden(true)
+            }
+            .card()
+        }
+        .buttonStyle(.plain)
+        .accessibilityIdentifier("rentro.role.\(role.rawValue)")
+    }
+}
+
 struct SignInView: View {
     @Environment(AuthStore.self) private var auth
     @Environment(\.colorScheme) private var scheme
+    @AppStorage("deviceRole") private var role = ""
 
     var body: some View {
         VStack(alignment: .leading, spacing: Space.s8) {
@@ -22,6 +61,7 @@ struct SignInView: View {
                 Text(message).font(.footnote).foregroundStyle(Color.textDanger).padding(.top, Space.s8)
             }
             Spacer()
+            TextLinkButton("This is a rental iPhone instead") { role = "" }.accessibilityIdentifier("rentro.role.change")
             // TODO(owner): link real Terms/Privacy URLs before release (PRD S35).
             Text("By continuing, you agree to the Terms and Privacy Policy.")
                 .font(.caption).foregroundStyle(Color.textSecondary)

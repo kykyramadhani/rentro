@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Rentro Tracker</string>
+	<string>Rentro</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -22,12 +22,14 @@
 	<string>1</string>
 	<key>CKSharingSupported</key>
 	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>NSCameraUsageDescription</key>
-	<string>Rentro Tracker uses the camera only to scan the pairing QR code shown by the rental business.</string>
+	<string>Rentro uses the camera only to scan the pairing QR code shown by the rental business.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Rentro Tracker shares this rental iPhone's location with the rental business you agreed to, including while the app is in the background, only while the tracking agreement is active.</string>
+	<string>Rentro shares this rental iPhone's location with the rental business you agreed to, including while the app is in the background, only while the tracking agreement is active.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Rentro Tracker shares this rental iPhone's location with the rental business you agreed to, only while the tracking agreement is active.</string>
+	<string>Rentro shares this rental iPhone's location with the rental business you agreed to, only while the tracking agreement is active.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

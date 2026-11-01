@@ -1,4 +1,8 @@
-# Testing on two real iPhones (iCloud on)
+# Testing on two real devices (iCloud on)
+
+Rentro is ONE app (scheme `Rentro`, bundle `com.rentro.admin`). First launch asks the role:
+"Run my rental business" (owner) or "This is a rental iPhone" (tracker). Switch later from the sign-in or pair screen.
+Install the same build on both devices and pick a different role on each.
 
 CloudKit is now ON in code: container `iCloud.com.rentro.shared`, entitlements in both apps (`Rentro.entitlements`, `RentroTracker.entitlements`), `CloudKitConfig.containerID` set.
 
@@ -6,7 +10,7 @@ CloudKit is now ON in code: container `iCloud.com.rentro.shared`, entitlements i
 1. Team JLQK39AS23 is set in `project.yml`. Always run `xcodegen generate` after pulling changes, or the installed app can miss its iCloud entitlement and crash at launch.
 2. App IDs and the container `iCloud.com.rentro.shared` are already provisioned (signed build verified).
    - If `com.rentro.admin` / `com.rentro.tracker` are taken, change the bundle ids in `project.yml` and the container id in the entitlements + `CloudKitConfig`.
-3. Real iPhones (Developer Mode on): install **RentroAdmin** on phone A (owner), **RentroTracker** on phone B (rental).
+3. Real iPhones (Developer Mode on): install **Rentro** on both; choose the owner role on A and the rental-iPhone role on B.
 4. Phone A: iCloud signed in with the OWNER Apple ID. Phone B: iCloud signed in with the FLEET Apple ID (different account).
 
 ## Flow

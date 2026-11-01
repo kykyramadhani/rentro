@@ -13,73 +13,45 @@ settings:
     STRING_CATALOG_GENERATE_SYMBOLS: NO
     DEVELOPMENT_TEAM: JLQK39AS23
 targets:
-  RentroAdmin:
+  Rentro:
     type: application
     platform: iOS
-    sources: [Apps/RentroAdmin, Shared]
-    settings:
-      base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.rentro.admin
-        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_CFBundleDisplayName: Rentro
-        INFOPLIST_KEY_UILaunchScreen_BackgroundColor: LaunchBackground
-        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
-        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
-        INFOPLIST_KEY_UILaunchScreen_Generation: YES
-        TARGETED_DEVICE_FAMILY: "1"
-        CODE_SIGN_ENTITLEMENTS: Apps/RentroAdmin/Resources/Rentro.entitlements
-  RentroTests:
-    type: bundle.unit-test
-    platform: iOS
-    sources: [Tests/Unit]
-    dependencies: [{target: RentroAdmin}]
-    settings: {base: {GENERATE_INFOPLIST_FILE: YES, PRODUCT_BUNDLE_IDENTIFIER: com.rentro.tests}}
-  RentroUITests:
-    type: bundle.ui-testing
-    platform: iOS
-    sources: [Tests/UITests]
-    dependencies: [{target: RentroAdmin}]
-    settings: {base: {GENERATE_INFOPLIST_FILE: YES, PRODUCT_BUNDLE_IDENTIFIER: com.rentro.uitests}}
-  RentroTracker:
-    type: application
-    platform: iOS
-    sources: [Apps/RentroTracker, Shared]
+    sources: [Apps/Rentro, Shared]
     info:
-      path: Apps/RentroTracker/Resources/Info.plist
+      path: Apps/Rentro/Resources/Info.plist
       properties:
-        CFBundleDisplayName: Rentro Tracker
+        CFBundleDisplayName: Rentro
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
         UILaunchScreen: {UIColorName: LaunchBackground}
         UIApplicationSceneManifest: {UIApplicationSupportsMultipleScenes: false}
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
         UIBackgroundModes: [location]
         CKSharingSupported: true
-        NSLocationWhenInUseUsageDescription: Rentro Tracker shares this rental iPhone's location with the rental business you agreed to, only while the tracking agreement is active.
-        NSLocationAlwaysAndWhenInUseUsageDescription: Rentro Tracker shares this rental iPhone's location with the rental business you agreed to, including while the app is in the background, only while the tracking agreement is active.
-        NSCameraUsageDescription: Rentro Tracker uses the camera only to scan the pairing QR code shown by the rental business.
+        ITSAppUsesNonExemptEncryption: false
+        NSLocationWhenInUseUsageDescription: Rentro shares this rental iPhone's location with the rental business you agreed to, only while the tracking agreement is active.
+        NSLocationAlwaysAndWhenInUseUsageDescription: Rentro shares this rental iPhone's location with the rental business you agreed to, including while the app is in the background, only while the tracking agreement is active.
+        NSCameraUsageDescription: Rentro uses the camera only to scan the pairing QR code shown by the rental business.
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.rentro.tracker
+        PRODUCT_BUNDLE_IDENTIFIER: com.rentro.admin   # already linked to iCloud.com.rentro.shared
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: NO
-        CODE_SIGN_ENTITLEMENTS: Apps/RentroTracker/Resources/RentroTracker.entitlements
-  RentroTrackerTests:
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_ENTITLEMENTS: Apps/Rentro/Resources/Rentro.entitlements
+  RentroTests:
     type: bundle.unit-test
     platform: iOS
-    sources: [Tests/TrackerUnit]
-    dependencies: [{target: RentroTracker}]
-    settings: {base: {GENERATE_INFOPLIST_FILE: YES, PRODUCT_BUNDLE_IDENTIFIER: com.rentro.trackertests}}
-  RentroTrackerUITests:
+    sources: [Tests/Unit, Tests/TrackerUnit]
+    dependencies: [{target: Rentro}]
+    settings: {base: {GENERATE_INFOPLIST_FILE: YES, PRODUCT_BUNDLE_IDENTIFIER: com.rentro.tests}}
+  RentroUITests:
     type: bundle.ui-testing
     platform: iOS
-    sources: [Tests/TrackerUITests]
-    dependencies: [{target: RentroTracker}]
-    settings: {base: {GENERATE_INFOPLIST_FILE: YES, PRODUCT_BUNDLE_IDENTIFIER: com.rentro.trackeruitests}}
+    sources: [Tests/UITests, Tests/TrackerUITests]
+    dependencies: [{target: Rentro}]
+    settings: {base: {GENERATE_INFOPLIST_FILE: YES, PRODUCT_BUNDLE_IDENTIFIER: com.rentro.uitests}}
 schemes:
-  RentroAdmin:
-    build: {targets: {RentroAdmin: all}}
+  Rentro:
+    build: {targets: {Rentro: all}}
     test: {targets: [RentroTests, RentroUITests]}
-  RentroTracker:
-    build: {targets: {RentroTracker: all}}
-    test: {targets: [RentroTrackerTests, RentroTrackerUITests]}
