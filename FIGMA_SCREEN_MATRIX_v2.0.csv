@@ -1,0 +1,38 @@
+route_id,title,priority,coverage,light_node,dark_node,light_url,dark_url
+S00,Native launch / startup gate,P0,brand-launch,58:4312,58:4316,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=58-4312&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=58-4316&m=dev
+S01,Sign In,P0,full,44:578,44:1289,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-578&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1289&m=dev
+S02,Business Setup,P0,full,44:606,44:1317,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-606&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1317&m=dev
+S03,Home / Dashboard,P0,full,43:579,43:1054,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-579&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1054&m=dev
+S04,Rentals list,P0,full,43:684,43:1159,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-684&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1159&m=dev
+S05,New Rental / Customer,P0,full,45:578,45:919,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-578&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-919&m=dev
+S06,New Rental / Device & Schedule,P0,full,45:670,45:1011,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-670&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-1011&m=dev
+S07,New Rental / Price & Payment,P0,full,44:1202,44:1913,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1202&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1913&m=dev
+S08,New Rental / Review,P0,full,44:1243,44:1954,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1243&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1954&m=dev
+S09,Rental Detail,P0,full,44:640,44:1351,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-640&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1351&m=dev
+S10,Pickup / Check-out,P0,full,44:688,44:1399,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-688&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1399&m=dev
+S11,Return / Check-in,P0,full,44:730,44:1441,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-730&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1441&m=dev
+S12,Extend Rental,P0,full,44:781,44:1492,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-781&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1492&m=dev
+S13,Cancel Reservation,P0,full,44:818,44:1529,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-818&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1529&m=dev
+S14,Devices list,P0,full,43:779,43:1254,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-779&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1254&m=dev
+S15,Device Detail,P0,full,43:955,43:1431,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-955&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1431&m=dev
+S16,Add / Edit Device,P0,full,44:851,44:1562,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-851&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1562&m=dev
+S17,Device Maintenance,P0,full,44:887,44:1598,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-887&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1598&m=dev
+S18,Fleet Map,P1,full,43:883,43:1358,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-883&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1358&m=dev
+S19,Device map bottom sheet,P1,embedded,43:883,43:1358,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-883&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1358&m=dev
+S20,Location History,P1,full,45:704,45:1045,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-704&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-1045&m=dev
+S21,Customers,P0,full,44:931,44:1642,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-931&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1642&m=dev
+S22,Customer Detail,P0,full,44:969,44:1680,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-969&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1680&m=dev
+S23,Add / Edit Customer,P0,full,44:1011,44:1722,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1011&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1722&m=dev
+S24,Payments & Deposits,P0,full,44:1048,44:1759,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1048&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1759&m=dev
+S25,Record Payment,P0,full,44:1090,44:1801,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1090&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1801&m=dev
+S26,Deposit Settlement,P0,full,44:1126,44:1837,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1126&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1837&m=dev
+S27,Alerts,P0,full,44:1163,44:1874,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1163&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1874&m=dev
+S28,Settings,P0,full,43:4387,43:4751,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4387&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4751&m=dev
+S29,Business Profile,P0,full,43:4487,43:4851,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4487&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4851&m=dev
+S30,Rental Rates & Policies,P0,full,43:4521,43:4885,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4521&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4885&m=dev
+S31,Appearance,P0,full,43:4558,43:4922,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4558&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4922&m=dev
+S32,Notifications,P0,full,43:4591,43:4955,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4591&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4955&m=dev
+S33,Team & Permissions,P1,full,43:4634,43:4998,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4634&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4998&m=dev
+S34,Privacy & Data,P0,full,43:4667,43:5031,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4667&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-5031&m=dev
+S35,About & Support,P0,full,43:4712,43:5076,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4712&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-5076&m=dev
+S36,Reports & Export,P1,full,45:737,45:1078,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-737&m=dev,https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-1078&m=dev

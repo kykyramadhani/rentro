@@ -1,0 +1,81 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Rentro Tracker"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "RentroTracker"
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rentro Tracker uses the camera only to scan the pairing QR code shown by the rental business."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rentro Tracker memakai kamera hanya untuk memindai kode QR pemasangan dari bisnis sewa."
+          }
+        }
+      }
+    },
+    "NSLocationAlwaysAndWhenInUseUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rentro Tracker shares this rental iPhone's location with the rental business you agreed to, including while the app is in the background, only while the tracking agreement is active."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rentro Tracker membagikan lokasi iPhone sewaan ini ke bisnis sewa yang Anda setujui, termasuk saat aplikasi di latar belakang, hanya selama perjanjian pelacakan aktif."
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rentro Tracker shares this rental iPhone's location with the rental business you agreed to, only while the tracking agreement is active."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rentro Tracker membagikan lokasi iPhone sewaan ini ke bisnis sewa yang Anda setujui, hanya selama perjanjian pelacakan aktif."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

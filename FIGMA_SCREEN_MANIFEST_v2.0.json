@@ -1,0 +1,732 @@
+{
+  "product": "Rentro",
+  "version": "2.0",
+  "updated": "2026-10-25",
+  "figma": {
+    "file_key": "CPVUgH5MmmOvlx3ArxEF94",
+    "page_id": "43:578",
+    "page_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-578&m=dev",
+    "main_flow": {
+      "light_section": "48:3304",
+      "dark_section": "48:3305"
+    },
+    "brand_section": "58:4299",
+    "legacy_wizard_frame_ids": [
+      "43:1018",
+      "43:1494"
+    ]
+  },
+  "canonical_screens": [
+    {
+      "id": "S00",
+      "title": "Native launch / startup gate",
+      "priority": "P0",
+      "coverage": "brand-launch",
+      "light_node": "58:4312",
+      "dark_node": "58:4316",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=58-4312&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=58-4316&m=dev"
+    },
+    {
+      "id": "S01",
+      "title": "Sign in with Apple",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:578",
+      "dark_node": "44:1289",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-578&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1289&m=dev"
+    },
+    {
+      "id": "S02",
+      "title": "Business Setup",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:606",
+      "dark_node": "44:1317",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-606&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1317&m=dev"
+    },
+    {
+      "id": "S03",
+      "title": "Home / Dashboard",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:579",
+      "dark_node": "43:1054",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-579&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1054&m=dev"
+    },
+    {
+      "id": "S04",
+      "title": "Rentals list",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:684",
+      "dark_node": "43:1159",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-684&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1159&m=dev"
+    },
+    {
+      "id": "S05",
+      "title": "New Rental / Customer",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "45:578",
+      "dark_node": "45:919",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-578&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-919&m=dev"
+    },
+    {
+      "id": "S06",
+      "title": "New Rental / Device & Schedule",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "45:670",
+      "dark_node": "45:1011",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-670&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-1011&m=dev"
+    },
+    {
+      "id": "S07",
+      "title": "New Rental / Price & Payment",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:1202",
+      "dark_node": "44:1913",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1202&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1913&m=dev"
+    },
+    {
+      "id": "S08",
+      "title": "New Rental / Review",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:1243",
+      "dark_node": "44:1954",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1243&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1954&m=dev"
+    },
+    {
+      "id": "S09",
+      "title": "Rental Detail",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:640",
+      "dark_node": "44:1351",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-640&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1351&m=dev"
+    },
+    {
+      "id": "S10",
+      "title": "Pickup / Check-out",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:688",
+      "dark_node": "44:1399",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-688&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1399&m=dev"
+    },
+    {
+      "id": "S11",
+      "title": "Return / Check-in",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:730",
+      "dark_node": "44:1441",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-730&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1441&m=dev"
+    },
+    {
+      "id": "S12",
+      "title": "Extend Rental",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:781",
+      "dark_node": "44:1492",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-781&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1492&m=dev"
+    },
+    {
+      "id": "S13",
+      "title": "Cancel Reservation",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:818",
+      "dark_node": "44:1529",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-818&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1529&m=dev"
+    },
+    {
+      "id": "S14",
+      "title": "Devices list",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:779",
+      "dark_node": "43:1254",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-779&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1254&m=dev"
+    },
+    {
+      "id": "S15",
+      "title": "Device Detail",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:955",
+      "dark_node": "43:1431",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-955&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1431&m=dev"
+    },
+    {
+      "id": "S16",
+      "title": "Add / Edit Device",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:851",
+      "dark_node": "44:1562",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-851&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1562&m=dev"
+    },
+    {
+      "id": "S17",
+      "title": "Device Maintenance",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:887",
+      "dark_node": "44:1598",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-887&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1598&m=dev"
+    },
+    {
+      "id": "S18",
+      "title": "Fleet Map",
+      "priority": "P1",
+      "coverage": "full",
+      "light_node": "43:883",
+      "dark_node": "43:1358",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-883&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1358&m=dev"
+    },
+    {
+      "id": "S19",
+      "title": "Device map bottom sheet",
+      "priority": "P1",
+      "coverage": "embedded",
+      "light_node": "43:883",
+      "dark_node": "43:1358",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-883&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1358&m=dev"
+    },
+    {
+      "id": "S20",
+      "title": "Location History",
+      "priority": "P1",
+      "coverage": "full",
+      "light_node": "45:704",
+      "dark_node": "45:1045",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-704&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-1045&m=dev"
+    },
+    {
+      "id": "S21",
+      "title": "Customers",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:931",
+      "dark_node": "44:1642",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-931&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1642&m=dev"
+    },
+    {
+      "id": "S22",
+      "title": "Customer Detail",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:969",
+      "dark_node": "44:1680",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-969&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1680&m=dev"
+    },
+    {
+      "id": "S23",
+      "title": "Add / Edit Customer",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:1011",
+      "dark_node": "44:1722",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1011&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1722&m=dev"
+    },
+    {
+      "id": "S24",
+      "title": "Payments & Deposits",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:1048",
+      "dark_node": "44:1759",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1048&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1759&m=dev"
+    },
+    {
+      "id": "S25",
+      "title": "Record Payment",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:1090",
+      "dark_node": "44:1801",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1090&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1801&m=dev"
+    },
+    {
+      "id": "S26",
+      "title": "Deposit Settlement",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:1126",
+      "dark_node": "44:1837",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1126&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1837&m=dev"
+    },
+    {
+      "id": "S27",
+      "title": "Alerts",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "44:1163",
+      "dark_node": "44:1874",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1163&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-1874&m=dev"
+    },
+    {
+      "id": "S28",
+      "title": "Settings",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:4387",
+      "dark_node": "43:4751",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4387&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4751&m=dev"
+    },
+    {
+      "id": "S29",
+      "title": "Business Profile",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:4487",
+      "dark_node": "43:4851",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4487&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4851&m=dev"
+    },
+    {
+      "id": "S30",
+      "title": "Rental Rates & Policies",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:4521",
+      "dark_node": "43:4885",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4521&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4885&m=dev"
+    },
+    {
+      "id": "S31",
+      "title": "Appearance",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:4558",
+      "dark_node": "43:4922",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4558&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4922&m=dev"
+    },
+    {
+      "id": "S32",
+      "title": "Notifications",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:4591",
+      "dark_node": "43:4955",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4591&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4955&m=dev"
+    },
+    {
+      "id": "S33",
+      "title": "Team & Permissions",
+      "priority": "P1",
+      "coverage": "full",
+      "light_node": "43:4634",
+      "dark_node": "43:4998",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4634&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4998&m=dev"
+    },
+    {
+      "id": "S34",
+      "title": "Privacy & Data",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:4667",
+      "dark_node": "43:5031",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4667&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-5031&m=dev"
+    },
+    {
+      "id": "S35",
+      "title": "About & Support",
+      "priority": "P0",
+      "coverage": "full",
+      "light_node": "43:4712",
+      "dark_node": "43:5076",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-4712&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-5076&m=dev"
+    },
+    {
+      "id": "S36",
+      "title": "Reports & Export",
+      "priority": "P1",
+      "coverage": "full",
+      "light_node": "45:737",
+      "dark_node": "45:1078",
+      "light_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-737&m=dev",
+      "dark_url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=45-1078&m=dev"
+    }
+  ],
+  "tracker_screens": [
+    {
+      "id": "T01",
+      "title": "Pair Device",
+      "preferred_light_node": "44:4000",
+      "preferred_dark_node": "44:4026",
+      "alternate_light_node": "45:771",
+      "alternate_dark_node": "45:1112"
+    },
+    {
+      "id": "T02",
+      "title": "Tracking Consent",
+      "preferred_light_node": "44:4052",
+      "preferred_dark_node": "44:4085",
+      "alternate_light_node": "45:795",
+      "alternate_dark_node": "45:1136"
+    },
+    {
+      "id": "T03",
+      "title": "Tracker Home",
+      "preferred_light_node": "44:4118",
+      "preferred_dark_node": "44:4150",
+      "alternate_light_node": "45:827",
+      "alternate_dark_node": "45:1168"
+    },
+    {
+      "id": "T04",
+      "title": "Tracker Diagnostics",
+      "preferred_light_node": "44:4182",
+      "preferred_dark_node": "44:4225",
+      "alternate_light_node": "45:856",
+      "alternate_dark_node": "45:1197"
+    },
+    {
+      "id": "T05",
+      "title": "Unpair Tracker",
+      "preferred_light_node": "44:4268",
+      "preferred_dark_node": "44:4293",
+      "alternate_light_node": "45:894",
+      "alternate_dark_node": "45:1235"
+    }
+  ],
+  "brand_assets": {
+    "wordmark_light": "58:4300",
+    "wordmark_dark": "58:4302",
+    "launch_light": "58:4312",
+    "launch_dark": "58:4316",
+    "motion_intro_light": "58:4320",
+    "motion_intro_dark": "58:4332",
+    "app_icon_light": "58:4342",
+    "app_icon_dark": "58:4345"
+  },
+  "user_supplied_references": [
+    {
+      "ordinal": 1,
+      "node_id": "43:1530",
+      "name": "KPI Icon · phone Light",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1530&m=dev"
+    },
+    {
+      "ordinal": 2,
+      "node_id": "44:4318",
+      "name": "HIG Audit Summary",
+      "type": "Audit board",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4318&m=dev"
+    },
+    {
+      "ordinal": 3,
+      "node_id": "43:1556",
+      "name": "KPI Icon · available Dark",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1556&m=dev"
+    },
+    {
+      "ordinal": 4,
+      "node_id": "43:1576",
+      "name": "Navigation icon · legacy More Light",
+      "type": "Component · deprecated label",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1576&m=dev"
+    },
+    {
+      "ordinal": 5,
+      "node_id": "48:3305",
+      "name": "FLOW Dark (41 frames)",
+      "type": "Design section",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=48-3305&m=dev"
+    },
+    {
+      "ordinal": 6,
+      "node_id": "43:1534",
+      "name": "KPI Icon · rented Light",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1534&m=dev"
+    },
+    {
+      "ordinal": 7,
+      "node_id": "43:1546",
+      "name": "KPI Icon · return Light",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1546&m=dev"
+    },
+    {
+      "ordinal": 8,
+      "node_id": "43:1549",
+      "name": "KPI Icon · phone Dark",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1549&m=dev"
+    },
+    {
+      "ordinal": 9,
+      "node_id": "44:4182",
+      "name": "Tracker Diagnostics Light",
+      "type": "Screen · tracker",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4182&m=dev"
+    },
+    {
+      "ordinal": 10,
+      "node_id": "43:1540",
+      "name": "KPI Icon · warning Light",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1540&m=dev"
+    },
+    {
+      "ordinal": 11,
+      "node_id": "43:1553",
+      "name": "KPI Icon · rented Dark",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1553&m=dev"
+    },
+    {
+      "ordinal": 12,
+      "node_id": "43:1537",
+      "name": "KPI Icon · available Light",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1537&m=dev"
+    },
+    {
+      "ordinal": 13,
+      "node_id": "44:4225",
+      "name": "Tracker Diagnostics Dark",
+      "type": "Screen · tracker",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4225&m=dev"
+    },
+    {
+      "ordinal": 14,
+      "node_id": "43:1559",
+      "name": "KPI Icon · warning Dark",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1559&m=dev"
+    },
+    {
+      "ordinal": 15,
+      "node_id": "43:1570",
+      "name": "Navigation icon · Rentals Light",
+      "type": "Component · navigation",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1570&m=dev"
+    },
+    {
+      "ordinal": 16,
+      "node_id": "43:1562",
+      "name": "KPI Icon · pickup Dark",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1562&m=dev"
+    },
+    {
+      "ordinal": 17,
+      "node_id": "43:1565",
+      "name": "KPI Icon · return Dark",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1565&m=dev"
+    },
+    {
+      "ordinal": 18,
+      "node_id": "43:1586",
+      "name": "Navigation icon · legacy More Dark",
+      "type": "Component · deprecated label",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1586&m=dev"
+    },
+    {
+      "ordinal": 19,
+      "node_id": "43:1568",
+      "name": "Navigation icon · Home Light",
+      "type": "Component · navigation",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1568&m=dev"
+    },
+    {
+      "ordinal": 20,
+      "node_id": "44:4150",
+      "name": "Tracker Home Dark",
+      "type": "Screen · tracker",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4150&m=dev"
+    },
+    {
+      "ordinal": 21,
+      "node_id": "43:1584",
+      "name": "Navigation icon · Map Dark",
+      "type": "Component · navigation",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1584&m=dev"
+    },
+    {
+      "ordinal": 22,
+      "node_id": "44:4052",
+      "name": "Tracking Consent Light",
+      "type": "Screen · tracker",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4052&m=dev"
+    },
+    {
+      "ordinal": 23,
+      "node_id": "43:1572",
+      "name": "Navigation icon · Devices Light",
+      "type": "Component · navigation",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1572&m=dev"
+    },
+    {
+      "ordinal": 24,
+      "node_id": "43:1574",
+      "name": "Navigation icon · Map Light",
+      "type": "Component · navigation",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1574&m=dev"
+    },
+    {
+      "ordinal": 25,
+      "node_id": "43:1578",
+      "name": "Navigation icon · Home Dark",
+      "type": "Component · navigation",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1578&m=dev"
+    },
+    {
+      "ordinal": 26,
+      "node_id": "43:1543",
+      "name": "KPI Icon · pickup Light",
+      "type": "Component · KPI",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1543&m=dev"
+    },
+    {
+      "ordinal": 27,
+      "node_id": "58:4302",
+      "name": "Wordmark Dark",
+      "type": "Component · brand",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=58-4302&m=dev"
+    },
+    {
+      "ordinal": 28,
+      "node_id": "43:1582",
+      "name": "Navigation icon · Devices Dark",
+      "type": "Component · navigation",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1582&m=dev"
+    },
+    {
+      "ordinal": 29,
+      "node_id": "58:4300",
+      "name": "Wordmark Light",
+      "type": "Component · brand",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=58-4300&m=dev"
+    },
+    {
+      "ordinal": 30,
+      "node_id": "43:1588",
+      "name": "Search Field",
+      "type": "Component · search",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1588&m=dev"
+    },
+    {
+      "ordinal": 31,
+      "node_id": "43:1580",
+      "name": "Navigation icon · Rentals Dark",
+      "type": "Component · navigation",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=43-1580&m=dev"
+    },
+    {
+      "ordinal": 32,
+      "node_id": "44:4268",
+      "name": "Unpair Tracker Light",
+      "type": "Screen · tracker",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4268&m=dev"
+    },
+    {
+      "ordinal": 33,
+      "node_id": "44:4000",
+      "name": "Pair Device Light",
+      "type": "Screen · tracker",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4000&m=dev"
+    },
+    {
+      "ordinal": 34,
+      "node_id": "44:4026",
+      "name": "Pair Device Dark",
+      "type": "Screen · tracker",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4026&m=dev"
+    },
+    {
+      "ordinal": 35,
+      "node_id": "44:4085",
+      "name": "Tracking Consent Dark",
+      "type": "Screen · tracker",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4085&m=dev"
+    },
+    {
+      "ordinal": 36,
+      "node_id": "44:4118",
+      "name": "Tracker Home Light",
+      "type": "Screen · tracker",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4118&m=dev"
+    },
+    {
+      "ordinal": 37,
+      "node_id": "44:4293",
+      "name": "Unpair Tracker Dark",
+      "type": "Screen · tracker",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=44-4293&m=dev"
+    },
+    {
+      "ordinal": 38,
+      "node_id": "48:3304",
+      "name": "FLOW Light (41 frames)",
+      "type": "Design section",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=48-3304&m=dev"
+    },
+    {
+      "ordinal": 39,
+      "node_id": "58:4299",
+      "name": "Brand Identity & Launch",
+      "type": "Design section · brand",
+      "url": "https://www.figma.com/design/CPVUgH5MmmOvlx3ArxEF94/Rentro?node-id=58-4299&m=dev"
+    }
+  ],
+  "product_navigation": [
+    "Home",
+    "Rentals",
+    "Devices",
+    "Map",
+    "Settings"
+  ],
+  "non_goals": [
+    "MDM",
+    "Find My location API",
+    "Apple account credentials",
+    "Guaranteed live GPS",
+    "Covert tracking"
+  ]
+}
