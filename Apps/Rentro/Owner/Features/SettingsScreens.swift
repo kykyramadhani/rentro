@@ -48,6 +48,7 @@ struct BusinessProfileView: View {
     @State private var name = ""
     @State private var phone = ""
     @State private var address = ""
+    @State private var wilayahKode = ""
     @State private var tz = ""
     @State private var error: String?
     @State private var confirmTZ = false
@@ -57,7 +58,8 @@ struct BusinessProfileView: View {
         SettingsPage(title: "Business Profile", error: error, primary: "Save", id: "rentro.profile.save", action: save) {
             RentroFormField(label: "Business name") { TextField("Business name", text: $name).accessibilityIdentifier("rentro.profile.name") }
             RentroFormField(label: "Phone") { TextField("+62 …", text: $phone).keyboardType(.phonePad) }
-            RentroFormField(label: "Address") { TextField("Address", text: $address) }
+            RentroFormField(label: "Address") { TextField("Street, building", text: $address) }
+            WilayahPicker(kode: $wilayahKode)
             RentroFormField(label: "Timezone") {
                 Picker("Timezone", selection: $tz) { ForEach(TimeZone.knownTimeZoneIdentifiers, id: \.self) { Text($0).tag($0) } }.labelsHidden().tint(.textPrimary)
             }
@@ -68,7 +70,7 @@ struct BusinessProfileView: View {
         } message: { Text("Times shown in the app will shift. Stored rental times do not change.") }
         .onAppear {
             guard !loaded else { return }
-            loaded = true; name = business.name; phone = business.phone; address = business.address; tz = business.timeZoneID
+            loaded = true; name = business.name; phone = business.phone; address = business.address; wilayahKode = business.wilayahKode; tz = business.timeZoneID
         }
     }
 
@@ -81,6 +83,7 @@ struct BusinessProfileView: View {
         business.name = n
         business.phone = phone.trimmingCharacters(in: .whitespaces)
         business.address = address.trimmingCharacters(in: .whitespaces)
+        business.wilayahKode = wilayahKode
         business.timeZoneID = tz                 // display only: stored instants are absolute Dates (AT-27)
         do { try context.save(); dismiss() } catch { self.error = error.localizedDescription }
     }

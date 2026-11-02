@@ -1111,6 +1111,16 @@
         }
       }
     },
+    "Choose": {
+      "localizations": {
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih"
+          }
+        }
+      }
+    },
     "Choose a customer and device from this business.": {
       "localizations": {
         "id": {
@@ -1349,6 +1359,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lanjut ke Izin iOS"
+          }
+        }
+      }
+    },
+    "Couldn't load regions. Try again": {
+      "localizations": {
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gagal memuat wilayah. Coba lagi"
           }
         }
       }
@@ -1799,6 +1819,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Diskon harus antara Rp 0 dan subtotal."
+          }
+        }
+      }
+    },
+    "District": {
+      "localizations": {
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kecamatan"
           }
         }
       }
@@ -3743,6 +3773,16 @@
         }
       }
     },
+    "Postal code": {
+      "localizations": {
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kode pos"
+          }
+        }
+      }
+    },
     "Preferences": {
       "localizations": {
         "id": {
@@ -3779,6 +3819,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kebijakan Privasi"
+          }
+        }
+      }
+    },
+    "Province": {
+      "localizations": {
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Provinsi"
           }
         }
       }
@@ -3949,6 +3999,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pengembalian dana"
+          }
+        }
+      }
+    },
+    "Regency/City": {
+      "localizations": {
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kabupaten/Kota"
           }
         }
       }
@@ -4843,6 +4903,16 @@
         }
       }
     },
+    "Street, building": {
+      "localizations": {
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jalan, gedung"
+          }
+        }
+      }
+    },
     "Summary": {
       "localizations": {
         "id": {
@@ -5499,6 +5569,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lihat lokasi"
+          }
+        }
+      }
+    },
+    "Village": {
+      "localizations": {
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desa/Kelurahan"
           }
         }
       }

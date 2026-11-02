@@ -20,6 +20,7 @@ enum LateFeeUnit: String, CaseIterable, Codable {
     var name = ""
     var phone = ""
     var address = ""
+    var wilayahKode = ""      // village kode (Kepmendagri), "" when not set; see WilayahPicker
     var timeZoneID = "Asia/Makassar"
     var currencyCode = "IDR"
     var defaultDailyRateIDR = 0

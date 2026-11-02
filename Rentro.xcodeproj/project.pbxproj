@@ -13,6 +13,7 @@
 		1E693365019EF751C8A13F26 /* AccessibilityAuditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C6CC0DE6635ED53A43F45 /* AccessibilityAuditTests.swift */; };
 		2095C65ABC9EC61C360D6848 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABABD9547DAC63CFB0B481 /* AppStore.swift */; };
 		2589BFFA13DD7B5C175117C0 /* TrackerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82321DD416D68C27D5F2C202 /* TrackerViews.swift */; };
+		2873224540B3B222A6494A55 /* WilayahPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934FBE8A5B093DB7AC17EB29 /* WilayahPicker.swift */; };
 		2A95030D0016280BBFF2A5B5 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7933BB2663CD5FDCCD651 /* DevicesView.swift */; };
 		3B066A3FE5A1AFECA5206ABF /* FleetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B52EBD427B411636717CF5 /* FleetLink.swift */; };
 		3C4A3589BBF3348AA938538F /* KeychainSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B2827DD526F24D42FDD45 /* KeychainSlot.swift */; };
@@ -25,6 +26,7 @@
 		5FDFB42AEC27F1CC1EEF9DA4 /* TrackerWiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6424D47F1BC58143CF52F25 /* TrackerWiring.swift */; };
 		613BD927279BD0352AEC3AEB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006CFC3A9DF97719E93B8615 /* SettingsView.swift */; };
 		61AE6A2A639DD62C1BD84896 /* CloudKitSelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103B2A0506E3A7F20EE28C57 /* CloudKitSelfTest.swift */; };
+		62106F20444FC18E976D7494 /* WilayahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BD7C0EF7E72333B5929920 /* WilayahUITests.swift */; };
 		6547DBD7ACBFE64A8E4E3252 /* Freshness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20743A315A65992F7780BA17 /* Freshness.swift */; };
 		66057D9FF68F94B3BEF72A2E /* BookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AD49A93C15A7C6EF5B3D5 /* BookingTests.swift */; };
 		668D9CE1C588133920921AA6 /* TrackerCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2E4741E2AA004002735DA /* TrackerCoreTests.swift */; };
@@ -33,6 +35,7 @@
 		6C0A209D47558C35BD232E85 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3042D23C0EED2D45E16274C /* Money.swift */; };
 		6C117BB2E871E0D98FF13E21 /* LocationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13DFD0A4171226FD5B858E /* LocationSample.swift */; };
 		6CDA2C4CFD9C1F77867D3178 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673BC766CA59E02341BCB60 /* Services.swift */; };
+		70646A71E09BB0B3B33FD1D4 /* WilayahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B244DD41495AB246E51243C1 /* WilayahTests.swift */; };
 		716841118C4C24B1708CDBF4 /* LoopbackServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E25C2DA20CD6582410855 /* LoopbackServer.swift */; };
 		7395D88F92C8F90F02E9EA99 /* BrandIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3463CA4B3E98E873C8995222 /* BrandIntro.swift */; };
 		7574772CC0F8AECE54BBD461 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070514815524BEFF7A11FE2 /* LocationProvider.swift */; };
@@ -119,15 +122,18 @@
 		82321DD416D68C27D5F2C202 /* TrackerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViews.swift; sourceTree = "<group>"; };
 		8998C6FD57B2107B06533AB8 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 		8DC5A067025D73DFE73D1C28 /* TrackerTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerTransport.swift; sourceTree = "<group>"; };
+		934FBE8A5B093DB7AC17EB29 /* WilayahPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilayahPicker.swift; sourceTree = "<group>"; };
 		987ABBE68217779B1B3F3F22 /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
 		99D2E4741E2AA004002735DA /* TrackerCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerCoreTests.swift; sourceTree = "<group>"; };
 		99F2FA3D7359DAFABE9C9012 /* TabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUITests.swift; sourceTree = "<group>"; };
 		9FCFFF197B74DC6699B01865 /* RentroUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RentroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21B2827DD526F24D42FDD45 /* KeychainSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSlot.swift; sourceTree = "<group>"; };
+		A2BD7C0EF7E72333B5929920 /* WilayahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilayahUITests.swift; sourceTree = "<group>"; };
 		A619F025B5095446F1D5D116 /* AlertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsTests.swift; sourceTree = "<group>"; };
 		A9198018DF306483B86AF11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AE13DFD0A4171226FD5B858E /* LocationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSample.swift; sourceTree = "<group>"; };
 		AF1191ABD56DCC2B167A25DD /* PolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyTests.swift; sourceTree = "<group>"; };
+		B244DD41495AB246E51243C1 /* WilayahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilayahTests.swift; sourceTree = "<group>"; };
 		B39C6CC0DE6635ED53A43F45 /* AccessibilityAuditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityAuditTests.swift; sourceTree = "<group>"; };
 		B3A070659B52E0F1053779B5 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		B64DDA1EAA06CC84C7C93A20 /* CustomerForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerForm.swift; sourceTree = "<group>"; };
@@ -211,6 +217,7 @@
 				B3A070659B52E0F1053779B5 /* LocationTests.swift */,
 				AF1191ABD56DCC2B167A25DD /* PolicyTests.swift */,
 				99D2E4741E2AA004002735DA /* TrackerCoreTests.swift */,
+				B244DD41495AB246E51243C1 /* WilayahTests.swift */,
 			);
 			path = Unit;
 			sourceTree = "<group>";
@@ -221,6 +228,7 @@
 				B39C6CC0DE6635ED53A43F45 /* AccessibilityAuditTests.swift */,
 				6FDD2320D54E1C2B5DEA3E74 /* ScreenshotTour.swift */,
 				99F2FA3D7359DAFABE9C9012 /* TabBarUITests.swift */,
+				A2BD7C0EF7E72333B5929920 /* WilayahUITests.swift */,
 			);
 			path = UITests;
 			sourceTree = "<group>";
@@ -371,6 +379,7 @@
 				E3580FD7755C8EDC6ABDA4AB /* SettingsScreens.swift */,
 				006CFC3A9DF97719E93B8615 /* SettingsView.swift */,
 				61DC55DAD47B5D1A1E2C0573 /* TrackerAdminViews.swift */,
+				934FBE8A5B093DB7AC17EB29 /* WilayahPicker.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -500,6 +509,7 @@
 				C92F93EF123442FC186F0882 /* PolicyTests.swift in Sources */,
 				668D9CE1C588133920921AA6 /* TrackerCoreTests.swift in Sources */,
 				C71E0A62AD875B39FD915536 /* TrackerModelTests.swift in Sources */,
+				70646A71E09BB0B3B33FD1D4 /* WilayahTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +521,7 @@
 				C777C0B95727B98FE3EB3A16 /* ScreenshotTour.swift in Sources */,
 				DFDDD1EAE73C7A2D830D0E09 /* TabBarUITests.swift in Sources */,
 				78C8A0B427BC3E0B20182937 /* TrackerUITests.swift in Sources */,
+				62106F20444FC18E976D7494 /* WilayahUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +574,7 @@
 				8810C7207C04AD772CEEB049 /* TrackerTransport.swift in Sources */,
 				2589BFFA13DD7B5C175117C0 /* TrackerViews.swift in Sources */,
 				5FDFB42AEC27F1CC1EEF9DA4 /* TrackerWiring.swift in Sources */,
+				2873224540B3B222A6494A55 /* WilayahPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
